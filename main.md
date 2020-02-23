@@ -26,16 +26,15 @@ I have started to fill out answers that I believe are good enough for our purpos
 -->
 
 # Section 1:  Team Name and Mission
+
+This group is to be known under the working name of NAME for the mission of providing quality, client solutions to real world challenges in GIS interpolation and pathﬁnding.
+
   - What is your team name?
     - Cyber Peasants
     - Cyber Farm
     - Dev's Dev's
     - ARgriculture
     - Developers for the Advancement of Nutritious Grain (DANG)
-    
-  - What is the mission of your team in 1-2 sentences? 
-    - To Expand the Possibilities of Understanding and Learning through Quality Software Engineering
-    - ??? 
 
 # Section 2: Membership
 
@@ -44,7 +43,7 @@ I have started to fill out answers that I believe are good enough for our purpos
   - What consultants/mentors/instructional staff are associated with this team?
 -->
 
-This group is comprised of the following members: Joshua Dempsey, Conrad Mearns, and Schafer Damon. Members of this group work under the supervision of their client Dev Shrestha and those that Shrestha may come to represent.
+This group is comprised of the following members: Joshua Dempsey, Conrad Mearns, and Damon Schafer. Members of this group work under the supervision of their client Dev Shrestha and those that Shrestha may come to represent.
 
 # Section 3: Roles and Responsibilities
 <!--
@@ -56,17 +55,20 @@ This group is comprised of the following members: Joshua Dempsey, Conrad Mearns,
   - How will roles be selected/assigned? 
   - What are the key responsibilities associated with each role?
 -->
-**The budget**, as alotted to the group by the group's client, may be used in order to support the groups efforts only when the group decides in full unison that the funds should be spent. Such a process should be determined and voted on over a paper contract before being delivered to the client for further action.
+**The budget** - as allotted to the group by the group’s client, may be used in order to support the group’s efforts only when the group decides together that the funds shall be spent. Such a process should be determined and voted on over a paper contract before being delivered to the client for further action.
 
-**Client Communications** will be handled solely by member Damon Schafer. 
+**Client Communications** - will be handled solely by Damon Schafer. 
 
-**Group Meetings** will be held every other Friday at 2:00pm PST and as needed. Any member can request a new meeting and the remaining members can either agree or dismiss the request per their own discretion.
+**Group Meetings** - will be held every Friday at 2:00pm PST and as needed. Any member can request a new meeting and the remaining members can either agree or dismiss the request per their own discretion.
 
-## NEEDS DISCUSSION
-  - Who will be in charge of keeping team documentation?
-  - What other roles are critical to team success?
-  - How will roles be selected/assigned? 
-  - What are the key responsibilities associated with each role?
+**Group Documentation** - will be drafted, stored, and maintained by Conrad Mearns.
+
+**Version Control Administration** - which encompasses the requirements of creating and maintaining access to a VC system, and the facillities included with that system - will be the responsibility of Joshua Demspey.
+
+**Caterer** – Damon Schafer is responsible for bringing food to all meetings.
+
+**New Roles** can be assigned as needed through future meetings.
+
 
 # Section 4: Team Relationships
 <!--  
@@ -75,11 +77,7 @@ This group is comprised of the following members: Joshua Dempsey, Conrad Mearns,
 - Members will NOT …
 -->
 
-Relationships among team members must support full and respectful engagement of all members for the benefit of the entire team.
-Members are encouraged to bring _all_ ideas to discussion.
-Members will provide constructive critique to the ideas brought to discussion for the sake of understanding.
-Members will not provide critique to the ideas brought to discussion for the sake of immediate dismissal or disagreeance.
-Members will always put client needs first.
+Relationships among team members must support full and respectful engagement of all members for the benefit of the entire team. Members are encouraged to bring all ideas to discussion. Members will provide constructive critique to the ideas brought to discussion for the sake of understanding. Members will not provide critique to the ideas brought to discussion for the sake of immediate dismissal. Members will always put client needs first.
 
 <!-- More? -->
 
@@ -88,6 +86,13 @@ Members will always put client needs first.
   - Team members will work together to establish collective goals and to produce decisions and work products that advance teamwork and project success.
   - Members will…
   - Members will NOT…
+
+  Team members will work together to establish collective goals and to produce decisions and work products that advance teamwork and project success.
+  
+Group Members Will
+1. Provide valuable feedback and 		support to fellow group members.
+2. Present his/her ideas when relevant
+3. 
 
 ## 5.2 Team Meetings
   - Team meetings are an important example of working together.
