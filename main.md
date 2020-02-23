@@ -21,35 +21,24 @@ Plan to allocate some time at the first instructor/team meeting the review/revis
 ====================================
 
 I have started to fill out answers that I believe are good enough for our purposes, or that we have already determined answers too. Please edit as you see fit, and chat when necessary. This document can be converted to pdf with Pandoc. -Conrad
-
-
 -->
 
-# Section 1:  Team Name and Mission
+# Section 1: Team Name and Mission
 
-This group is to be known under the working name of NAME for the mission of providing quality, client solutions to real world challenges in GIS interpolation and pathﬁnding.
+This group is to be known under the working name of NAME for the mission of providing quality, client solutions to real world challenges in GIS interpolation and pathfinding.
 
-  - What is your team name?
-    - Cyber Peasants
-    - Cyber Farm
-    - Dev's Dev's
-    - ARgriculture
-    - Developers for the Advancement of Nutritious Grain (DANG)
+- What is your team name?
+  - Cyber Peasants
+  - Cyber Farm
+  - Dev's Dev's
+  - ARgriculture
+  - Developers for the Advancement of Nutritious Grain (DANG)
 
 # Section 2: Membership
 
 This group is comprised of the following members: Joshua Dempsey, Conrad Mearns, and Damon Schafer. Members of this group work under the supervision of their client Dev Shrestha and those that Shrestha may come to represent.
 
 # Section 3: Roles and Responsibilities
-<!--
-  - Who will be in charge of your budget?
-  - Who will be the primary client contact?
-  - Who will organize team meetings?
-  - Who will be in charge of keeping team documentation?
-  - What other roles are critical to team success?
-  - How will roles be selected/assigned? 
-  - What are the key responsibilities associated with each role?
--->
 
 **The budget** - as allotted to the group by the group’s client, may be used in order to support the group’s efforts only when the group decides together that the funds shall be spent. Such a process should be determined and voted on over a paper contract before being delivered to the client for further action.
 
@@ -64,11 +53,6 @@ This group is comprised of the following members: Joshua Dempsey, Conrad Mearns,
 **New Roles** can be assigned as needed through future meetings.
 
 # Section 4: Team Relationships
-<!--  
-  - Relationships among team members must support full and respectful engagement of all members for the benefit of the entire team.
-  - Members will…
-- Members will NOT …
--->
 
 Relationships among team members must support full and respectful engagement of all members for the benefit of the entire team. Members are encouraged to bring all ideas to discussion. Members will provide constructive critique to the ideas brought to discussion for the sake of understanding. Members will not provide critique to the ideas brought to discussion for the sake of immediate dismissal. Members will always put client needs first.
 
@@ -115,9 +99,6 @@ Conflicts should be resolved with full respect to the clients needs before the n
 Members are expected to resolve conflicts timely enough as to not disrupt scheduled deadlines and milestones.
 If members cannot resolve a conflict timely enough, any member can choose to hold a coin toss or any other simple game of chance.
 Conflicts will recorded respectfully in individual members notes, including explanations as to why or how a final decision was made.
-
-  <!-- - What process will be used to address conflicts? -->
-  <!-- - How will team dynamics be communicated to instructors/mentors? -->
 
 # Section 9:  Amendments
 A copy of this team contract will be kept in Version Control.
