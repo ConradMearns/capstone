@@ -105,3 +105,5 @@ We, the members of this team, affirm that we have established this contract with
 Signatures that are added can be verified by checking this documents source file against Git.
 
 Conrad Mearns - March 3rd
+
+Damon Schafer - March 3rd, 2020
