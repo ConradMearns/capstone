@@ -25,14 +25,7 @@ I have started to fill out answers that I believe are good enough for our purpos
 
 # Section 1: Team Name and Mission
 
-This group is to be known under the working name of NAME for the mission of providing quality, client solutions to real world challenges in GIS interpolation and pathfinding.
-
-- What is your team name?
-  - Cyber Peasants
-  - Cyber Farm
-  - Dev's Dev's
-  - ARgriculture
-  - Developers for the Advancement of Nutritious Grain (DANG)
+This group is to be known under the working name of "Dev's Dev's" for the mission of providing quality, client solutions to real world challenges in GIS interpolation and pathfinding.
 
 # Section 2: Membership
 
@@ -108,3 +101,7 @@ Ammendments to this contract may be added after a unanimous vote from the member
 # Section 10:  Affirmation of Compliance
 
 We, the members of this team, affirm that we have established this contract with input and consensus of all members. By our signatures, we commit to compliance with the contract for the benefit of all members and the team as a whole.
+
+Signatures that are added can be verified by checking this documents source file against Git.
+
+Conrad Mearns - March 3rd
