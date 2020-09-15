@@ -16,10 +16,7 @@ feb 21
 march 3rd
 
 
-How this thing will work: Im gonna just write a bunch of rants and ideas, split them apart, and the link them back together
-Each document will be downloaded into it's own folder, so that I can collect PDF's and notes
-Notes will be split into 2 files, before.md and after.md, neither are required.
-
+This group is to be known under the working name of "Dev's Dev's" for the mission of providing quality, client solutions to real world challenges in GIS interpolation and pathfinding.
 
 
 
@@ -223,3 +220,12 @@ Twenty-first-century farm economics stimulate farmers to increase the size of th
 
 
 
+We, the members of this team, affirm that we have established this contract with input and consensus of all members. By our signatures, we commit to compliance with the contract for the benefit of all members and the team as a whole.
+
+Signatures that are added can be verified by checking this documents source file against Git.
+
+Conrad Mearns - March 3rd
+
+Damon Schafer - March 3rd, 2020
+
+Joshua Dempsey - March 3rd, 2020
