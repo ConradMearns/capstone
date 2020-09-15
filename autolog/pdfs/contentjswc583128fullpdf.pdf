@@ -1,0 +1,1796 @@
+
+
+
+
+<!DOCTYPE html>
+<html prefix="og: https://ogp.me/ns#article">
+
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=9; IE=EDGE" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Open Graph protocol -->
+<meta property="og:site_name"
+	content="AGRIS: International Information System for the Agricultural Science and Technology" />
+<meta property="og:description"
+	content="AGRICULTURAL SCIENCE AND TECHNOLOGY INFORMATION" />
+<meta property="og:title"
+	content="Wind erosion in wheel tracks of a farm tractor" />
+<meta property="og:url"
+	content="https://agris.fao.org/agris-search/search.do?recordID=PL880045588" />
+<meta property="og:image" content="" />
+
+
+	<title>Wind erosion in wheel tracks of a farm tractor</title>
+
+
+
+<!-- for Google Scholar -->
+
+	
+		<meta name="citation_title"
+			content="Wind erosion in wheel tracks of a farm tractor" />
+	
+	
+		
+			
+				<meta name="citation_author" content="Podsiadlowski, S. (Akademia Rolnicza, Poznan (Poland))" />
+			
+		
+	
+	
+		<meta name="citation_publication_date"
+			content="1987" />
+	
+	
+		<meta name="citation_journal_title"
+			content="Soil Science Annual" />
+	
+	
+		<meta name="citation_language"
+			content="Polish" />
+	
+	
+		<meta name="citation_issn"
+			content="0080-3642" />
+	
+	
+	
+		<meta name="citation_conference_title"
+			content="All-Polish Symposium on Erosion Control as a Basis for Rational Use of Upland Areas, Pulawy (Poland), 12-14 Sep 1984" />
+	
+	
+	
+
+
+<!-- Devices Favicon-->
+<link rel="apple-touch-icon-precomposed" sizes="57x57"
+	href="/agris-search/search/img/favicon/apple-touch-icon-57x57.png;jsessionid=22507D551838DA2D785FB15B8212B4D5" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+	href="/agris-search/search/img/favicon/apple-touch-icon-114x114.png;jsessionid=22507D551838DA2D785FB15B8212B4D5" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72"
+	href="/agris-search/search/img/favicon/apple-touch-icon-72x72.png;jsessionid=22507D551838DA2D785FB15B8212B4D5" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144"
+	href="/agris-search/search/img/favicon/apple-touch-icon-144x144.png;jsessionid=22507D551838DA2D785FB15B8212B4D5" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60"
+	href="/agris-search/search/img/favicon/apple-touch-icon-60x60.png;jsessionid=22507D551838DA2D785FB15B8212B4D5" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120"
+	href="/agris-search/search/img/favicon/apple-touch-icon-120x120.png;jsessionid=22507D551838DA2D785FB15B8212B4D5" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76"
+	href="/agris-search/search/img/favicon/apple-touch-icon-76x76.png;jsessionid=22507D551838DA2D785FB15B8212B4D5" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152"
+	href="/agris-search/search/img/favicon/apple-touch-icon-152x152.png;jsessionid=22507D551838DA2D785FB15B8212B4D5" />
+<link rel="icon" type="image/png"
+	href="/agris-search/search/img/favicon/favicon-196x196.png;jsessionid=22507D551838DA2D785FB15B8212B4D5"
+	sizes="196x196" />
+<link rel="icon" type="image/png"
+	href="/agris-search/search/img/favicon/favicon-96x96.png;jsessionid=22507D551838DA2D785FB15B8212B4D5"
+	sizes="96x96" />
+<link rel="icon" type="image/png"
+	href="/agris-search/search/img/favicon/favicon-32x32.png;jsessionid=22507D551838DA2D785FB15B8212B4D5"
+	sizes="32x32" />
+<link rel="icon" type="image/png"
+	href="/agris-search/search/img/favicon/favicon-16x16.png;jsessionid=22507D551838DA2D785FB15B8212B4D5"
+	sizes="16x16" />
+<link rel="icon" type="image/png"
+	href="/agris-search/search/img/favicon/favicon-128.png;jsessionid=22507D551838DA2D785FB15B8212B4D5"
+	sizes="128x128" />
+<meta name="application-name" content="&nbsp;" />
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage"
+	content="/agris-search/search/img/favicon/mstile-144x144.png;jsessionid=22507D551838DA2D785FB15B8212B4D5" />
+<meta name="msapplication-square70x70logo"
+	content="/agris-search/search/img/favicon/mstile-70x70.png;jsessionid=22507D551838DA2D785FB15B8212B4D5" />
+<meta name="msapplication-square150x150logo"
+	content="/agris-search/search/img/favicon/mstile-150x150.png;jsessionid=22507D551838DA2D785FB15B8212B4D5" />
+<meta name="msapplication-wide310x150logo"
+	content="/agris-search/search/img/favicon/mstile-310x150.png;jsessionid=22507D551838DA2D785FB15B8212B4D5" />
+<meta name="msapplication-square310x310logo"
+	content="/agris-search/search/img/favicon/mstile-310x310.png;jsessionid=22507D551838DA2D785FB15B8212B4D5" />
+<!-- /Devices Favicon-->
+
+<!-- struts-jquery header -->
+
+
+
+
+
+        <script type="text/javascript" src="/agris-search/struts/js/base/jquery-2.2.4.min.js"></script>
+<script type="text/javascript" src="/agris-search/struts/js/plugins/jquery.subscribe.min.js?s2j=4.0.3"></script>
+
+<script type="text/javascript" src="/agris-search/struts/js/struts2/jquery.struts2.min.js?s2j=4.0.3"></script>
+
+<script type="text/javascript">
+    $(function () {
+        jQuery.struts2_jquery.version = "4.0.3";
+        jQuery.scriptPath = "/agris-search/struts/";
+        jQuery.struts2_jquery.gridLocal = "en";
+        jQuery.struts2_jquery.timeLocal = "en";
+        jQuery.struts2_jquery.datatablesLocal = "en";
+        jQuery.ajaxSettings.traditional = true;
+
+        jQuery.ajaxSetup({
+            cache: false
+        });
+
+
+    });
+</script>
+
+
+<link rel="icon" href="/agris-search/search/img/favicon.ico;jsessionid=22507D551838DA2D785FB15B8212B4D5"
+	type="image/x-icon" />
+<link rel="shortcut icon"
+	href="/agris-search/search/img/favicon.ico;jsessionid=22507D551838DA2D785FB15B8212B4D5" type="image/x-icon" />
+
+<!-- Autocomplete -->
+<script src="https://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+
+<!-- For Google Translator -->
+<meta name="google-translate-customization"
+	content="e44570e0c721f960-f65c69209db7b1d2-g8c692d72142a2afb-18"></meta>
+
+<!-- Scripts -->
+<!-- Bootstrap JS -->
+<script src='/agris-search/search/js/bootstrap.min.js;jsessionid=22507D551838DA2D785FB15B8212B4D5'></script>
+<!-- Custom JS -->
+<script src='/agris-search/search/js/custom.js;jsessionid=22507D551838DA2D785FB15B8212B4D5?v=2.2'></script>
+
+<!-- CSS -->
+<link rel="stylesheet" type="text/css"
+	href="/agris-search/search/css/styles.css;jsessionid=22507D551838DA2D785FB15B8212B4D5?v=2.2" />
+
+<script>
+	$(document).ready(function() {
+		enableBackButton();
+	});
+</script>
+
+</head>
+
+<!-- ********************************** -->
+<!-- ************** BODY ************** -->
+<!-- ********************************** -->
+<body>
+
+	<!-- ********************************** -->
+	<!-- ******** POPUP BANNER ********** -->
+	<!-- Info Alert Header
+<!-- Error Alert Header
+<section>
+	<div class="row">
+		<div
+			class="col-md-12 col-sm-12 col-xs-12 row-alert row-alert-header inner">
+			<div class="alert alert-error" role="alert">
+				<i class="icon icon-error red"></i><span>Error Alert Header</span>
+			</div>
+		</div>
+	</div>
+</section>-->
+
+<!-- Warning Alert Header
+<section>
+	<div class="row">
+	
+		<div
+			class="col-md-12 col-sm-12 col-xs-12 row-alert row-alert-header inner">
+			<div class="alert alert-warning yellow" role="alert">
+				<i class="icon icon-alert yellow"></i><span>Warning Alert
+					Header</span>
+			</div>
+		</div>
+	</div>
+</section>-->
+
+	<!-- ********************************** -->
+	<!-- ********* HEADER BAR *********** -->
+	
+
+
+
+<!-- Autocomplete -->
+<script type='text/javascript'
+	src='/agris-search/search/js/autocomplete.js;jsessionid=22507D551838DA2D785FB15B8212B4D5?v=2.1'></script>
+
+<!-- Header -->
+<header>
+
+	<!-- ALERT IN CASE OF ERRORS -->
+	<!--
+	<div style="background-color:yellow; padding-left:50px; padding-top:8px; padding-bottom:8px; font-size: 14px;">
+		<b>ALERT : The AGRIS website is not fully functional due of FAO network problems. Basic search is still available.</b>
+	</div>
+	-->
+
+	<!-- Container fluid -->
+	<div class="container-fluid">
+		<!-- row -->
+
+		<div class="row">
+			<!-- FAO Header -->
+			<div class="FAO-header w-100">
+
+				<!-- FAO Logo -->
+				<div class="col-md-3 col-sm-4 col-xs-10 inner">
+					<div class="FAO-logo">
+						<a href="http://www.fao.org" target="_blank"> <img
+							src="/agris-search/search/img/FAO-logo.svg;jsessionid=22507D551838DA2D785FB15B8212B4D5" alt="FAO_logo"
+							class="img-responsive"
+							onerror="this.onerror=null; this.src='/agris-search/search/img/FAO-logo.png;jsessionid=22507D551838DA2D785FB15B8212B4D5' ">
+						</a>
+					</div>
+				</div>
+				<!-- /FAO Logo -->
+
+				<!-- Home Icon Mobile -->
+				<div class="col-xs-2 pull-right inner visible-xs">
+					<div class="home-icon pull-right">
+						<a href="info.action"> <img
+							src="/agris-search/search/img/home-icon.svg;jsessionid=22507D551838DA2D785FB15B8212B4D5" alt="home-icon"
+							class="img-responsive"
+							onerror="this.onerror=null; this.src='/agris-search/search/img/home-icon.png;jsessionid=22507D551838DA2D785FB15B8212B4D5'">
+						</a>
+					</div>
+				</div>
+				<!-- /Home Icon Mobile-->
+
+				<!-- FAO Languages -->
+				<div class="col-md-4 col-sm-6 col-xs-12 inner">
+					<div class="languages">
+						<ul class="list-inline">
+							<li> 
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+																	
+								 <a href="/agris-search/search.do;jsessionid=22507D551838DA2D785FB15B8212B4D5?request_locale=en&amp;recordID=PL880045588&amp;sourceQuery=&amp;query=&amp;sortField=&amp;sortOrder=&amp;agrovocString=&amp;advQuery=&amp;centerString=&amp;enableField=&amp;aggregatorField=&amp;typeresultsField=">English</a></li>
+							<li> 
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+										
+								 <a href="/agris-search/search.do;jsessionid=22507D551838DA2D785FB15B8212B4D5?request_locale=es&amp;recordID=PL880045588&amp;sourceQuery=&amp;query=&amp;sortField=&amp;sortOrder=&amp;agrovocString=&amp;advQuery=&amp;centerString=&amp;enableField=&amp;aggregatorField=&amp;typeresultsField=">Español</a></li>
+							<li> 
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+										
+								 <a href="/agris-search/search.do;jsessionid=22507D551838DA2D785FB15B8212B4D5?request_locale=fr&amp;recordID=PL880045588&amp;query=&amp;sourceQuery=&amp;sortField=&amp;sortOrder=&amp;agrovocString=&amp;advQuery=&amp;centerString=&amp;enableField=&amp;aggregatorField=&amp;typeresultsField=">Français</a></li>
+							<li> 
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+										
+								 <a href="/agris-search/search.do;jsessionid=22507D551838DA2D785FB15B8212B4D5?request_locale=ar&amp;recordID=PL880045588&amp;query=&amp;sourceQuery=&amp;sortField=&amp;sortOrder=&amp;agrovocString=&amp;advQuery=&amp;centerString=&amp;enableField=&amp;aggregatorField=&amp;typeresultsField=">العربية</a></li>
+							<li> 
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+										
+								 <a href="/agris-search/search.do;jsessionid=22507D551838DA2D785FB15B8212B4D5?request_locale=zh_CN&amp;recordID=PL880045588&amp;query=&amp;sourceQuery=&amp;sortField=&amp;sortOrder=&amp;agrovocString=&amp;advQuery=&amp;centerString=&amp;enableField=&amp;aggregatorField=&amp;typeresultsField=">中文</a></li>
+							<li> 
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+										
+								 <a href="/agris-search/search.do;jsessionid=22507D551838DA2D785FB15B8212B4D5?request_locale=ru&amp;recordID=PL880045588&amp;query=&amp;sourceQuery=&amp;sortField=&amp;sortOrder=&amp;agrovocString=&amp;advQuery=&amp;centerString=&amp;enableField=&amp;aggregatorField=&amp;typeresultsField=">Русский</a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- /FAO Languages -->
+
+				<!-- ************** Home Icon  ************** -->
+				<div class="col-md-1 col-sm-1 pull-right inner hidden-xs">
+					<div class="home-icon pull-right">
+						<a href="info.action"
+							target="_blank"> <img
+							src="/agris-search/search/img/home-icon.svg;jsessionid=22507D551838DA2D785FB15B8212B4D5" alt="home-icon"
+							class="img-responsive"
+							onerror="this.onerror=null; this.src='/agris-search/search/img/home-icon.png;jsessionid=22507D551838DA2D785FB15B8212B4D5'">
+						</a>
+					</div>
+				</div>
+				<!-- Home Icon -->
+
+			</div>
+			<!-- /FAO HEADER -->
+		</div>
+		<!-- /.row -->
+		<!-- .row -->
+
+		<!-- /.row -->
+		<!-- .container-fluid-->
+	</div>
+</header>
+<!-- /Header -->
+
+
+	<div
+		class="container-fluid main-container bg-grey inner-right inner-xs inner-sm">
+
+		
+			<!-- ********************************** -->
+			<!-- ******* RIGTH Sidebar ************ -->
+			<aside
+				class="col-md-3 mashup-right-sidebar col-sm-12 col-xs-12 inner-right col-md-push-9 inner-xs inner-sm">
+				<!-- col-md-push-8 reverse columns order on desktop-->
+				<!-- Google Translate Block -->
+				<div class="sidebar-block hidden-xs hidden-sm">
+					<div class="border-bottom">
+						<div class="row">
+							<div class="col-xs-12 no-margin"
+								style="padding-top: 5px; padding-bottom: 5px;">
+								<h3>Translate with Google</h3>
+							</div>
+							<div class="col-md-12 col-md-12 col-xs-12">
+								<!-- Google Translate Code -->
+								<div class="col-md-6">
+									<div class="google-translate-code">
+										<div id="google_translate_element"></div>
+									</div>
+									<!-- /.pull-left.google-translate-block -->
+								</div>
+								<!-- /.col-md-3 -->
+								<p
+									class="col-md-1 col-md-offset-4 col-sm-1 col-sm-offset-1 col-xs-1 col-xs-offset-1 inner"
+									data-toggle="tooltip" data-placement="left"
+									title="										
+											This translation tool is powered by Google. FAO is not responsible for the accuracy of translations.
+										">
+									<i class="icon icon-info green"></i>
+								</p>
+								<!-- /Google Translate Code-->
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /google translator block -->
+				<!-- ************************************* -->
+				<!-- fulltext -->
+				<div class="hidden-xs hidden-sm mashupft">
+					
+
+
+
+
+	<div class="row">
+		<div class="access-resource col-md-12 col-md-12 col-xs-12">
+			<h3>
+				
+				
+					
+						Access the full text
+					
+				
+			</h3>
+			<div class="col-xs-12">
+				
+				
+					<div class="pull-left"
+						style="font-weight: bold; margin-left: 10px; margin-top: 1px; font-style: italic; padding-bottom: 14px;">NOT
+						AVAILABLE</div>
+				
+			</div>
+		</div>
+	</div>
+
+
+
+
+					<!-- / end full text  ******************************************** -->
+					<!-- Google Scholar -->
+					
+						<div class="sidebar-block hidden-xs hidden-sm">
+							<div class="row no-margin">
+								<div class="access-resource col-md-12 col-md-12 col-xs-12">
+									<ul class="list-inline">
+										<li class="link-full-text"><a
+											href="https://scholar.google.com/scholar_lookup?title=Wind+erosion+in+wheel+tracks+of+a+farm+tractor&amp;author=Podsiadlowski%2C+S.+%28Akademia+Rolnicza%2C+Poznan+%28Poland%29%29&amp;publication_year=1987"
+											title="google_scholar" target="_blank"> <span
+												class="pull-left">
+														Lookup at Google Scholar
+													</span><img src="search/img/google-g-icon.png" alt="google-logo"
+												style="max-width: 23px; margin: 3px 3px 3px 8px;">
+										</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					
+
+					<!-- /end google scholar ******************************************** -->
+				</div>
+
+				<!-- ************************************* -->
+				<!-- Other Info -->
+				<div class="hidden-sm hidden-xs">
+					
+
+
+
+
+	<div class="sidebar-block">
+		<div class="row border-top no-margin">
+			<h3>
+				
+					Bibliographic information
+				
+			</h3>
+		</div>
+		<!-- /.row -->
+		<div class="row bibliographic-block no-margin">
+
+			
+				<div class="row">
+					<p class="col-xs-5 bibliographic-info-label">
+						
+							Language
+						:</p>
+					<p class="col-xs-7">
+						Polish
+					</p>
+				</div>
+			
+
+			
+				<div class="row">
+				<p class="col-xs-5 bibliographic-info-label">
+					
+						Type
+					:
+				</p>
+				<p class="col-xs-7">
+					Conference
+				</p>
+				</div>
+			
+
+			
+			<div class="row">
+				<p class="col-xs-5 bibliographic-info-label">
+					
+						In AGRIS since
+					:
+				</p>
+				<p class="col-xs-7">
+					1988
+				</p>
+			</div>
+			
+
+			
+			<div class="row">
+				<p class="col-xs-5 bibliographic-info-label">
+					
+							Volume
+					:
+				</p>
+				<p class="col-xs-7">
+					38
+				</p>
+			</div>
+			
+
+			
+			<div class="row">
+				<p class="col-xs-5 bibliographic-info-label">
+					
+							Issue
+					:
+				</p>
+				<p class="col-xs-7">
+					1
+				</p>
+			</div>
+			
+
+			
+			<div class="row">
+				<p class="col-xs-5 bibliographic-info-label">
+					
+							Start Page
+					:
+				</p>
+				<p class="col-xs-7">
+					157
+				</p>
+			</div>
+			
+
+			
+			<div class="row">
+				<p class="col-xs-5 bibliographic-info-label">
+					
+							End Page
+					:
+				</p>
+				<p class="col-xs-7">
+					166
+				</p>
+			</div>
+			
+			
+
+			
+
+			
+
+			
+			<div class="row">
+				<p class="col-xs-5 bibliographic-info-label">
+					<b>
+							All titles
+						</b>:
+				</p>
+				<div class="col-xs-7">
+				
+					<p>
+						&#34;
+						Wind erosion in wheel tracks of a farm tractor
+						&#34;
+					</p>
+				
+				</div>
+			</div>
+			
+			<!-- /.row -->
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+				</div>
+
+				<!-- ************************************* -->
+				<!-- Export record Block -->
+				<div class="sidebar-block hidden-xs hidden-sm"
+					style="padding-bottom: 30px;">
+					<div class="row no-margin">
+						<h3>
+							
+								Save as:
+							
+						</h3>
+					</div>
+					<div class="panel-group">
+						<div
+							class="access-resource save-resource col-md-12 col-md-12 col-xs-12">
+							<ul class="list-inline">
+
+								
+									
+								
+								<li class="link-full-text"><a
+									href="/agris-search/export!exportAGAP.do?arn=PL880045588"><span>
+												AGRIS_AP
+											</span><i class="icon icon-neutral"></i></a></li>
+
+								
+									
+								
+								<li class="link-full-text"><a
+									href="/agris-search/export!ris.do?arn=PL880045588"><span>
+												RIS
+											</span><i class="icon icon-neutral"></i></a></li>
+
+								
+									
+								
+								<li class="link-full-text"><a
+									href="/agris-search/export!endNote.do?arn=PL880045588"><span>
+												EndNote(XML)
+											</span><i class="icon icon-xml"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+
+				<!-- Sidebar Show for tablet and mobile -->
+				<div class="collapse hidden-xs hidden-sm" id="sidebar-show">
+
+					<div class="row no-margin visible-xs visible-sm">
+						<div class="col-sm-12 col-xs-12">
+							<p class="title-article">
+								Wind erosion in wheel tracks of a farm tractor
+							</p>
+						</div>
+					</div>
+
+				</div>
+
+				<!-- ************* -->
+			</aside>
+			<!-- /Sidebar -->
+		
+
+		<!-- ************************** -->
+		<!-- MAIN Article (LEFT column) -->
+		<!-- ************************** -->
+		<section
+			class="main_record col-md-8 bg-white search-results col-md-offset-1 col-sm-12 col-xs-12 inner-left col-md-pull-3">
+			<!-- col-md-pull-4 reverse columns order on desktop-->
+			<!-- Home logo -->
+			<div class="col-md-12 col-sm-12 col-xs-12 text-center search-logo">
+				<div class="col-md-1 col-sm-1 hidden-xs"></div>
+				<!-- /.col-md-2-->
+				<div class="col-md-10 col-sm-10 col-xs-12">
+					<div class="logo-div">
+						<a href="/agris-search/"><img
+							src="/agris-search/search/img/Agris_logo_2019.png"></a>
+					</div>
+				</div>
+				<div class="col-md-1 col-sm-1 hidden-xs"></div>
+				<!-- /.col-md-2-->
+			</div>
+			<!-- /home logo-->
+			<div id="back-link" style="display: none">
+				<a id="agris-search-referrer" href="#">
+					<div class="icon-back-div">
+						<i class="icon icon-arrow-down"></i>
+					</div>
+					<div class="text-back-div">
+						Back
+					</div>
+				</a>
+			</div>
+			<!-- ******************************************************* -->
+			<!-- Search bar -->
+			<!-- ******************************************************* -->
+			<form id="searchIndex" class="search-bar col-xs-12" role="search"
+				method="get" action="/agris-search/searchIndex.do" name="search">
+				<fieldset class="search-form-header">
+					<!-- .input-group -->
+					<div
+						class="input-group col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+						<input type="text" id="global-search-input"
+							onkeyup="stoppedTyping()"
+							class="form-control SearchBox-input AutocompleteInput-input ui-autocomplete-input"
+							placeholder="Find resources..." title="AGRIS Search"
+							value="" name="query">
+						<span class="input-group-btn">
+							<button title="Search AGRIS" type="submit"
+								id="global-search-submit" disabled>
+								<i class="icon icon-search"></i>
+							</button>
+						</span>
+					</div>
+					<!-- /.input-group -->
+				</fieldset>
+			</form>
+			<!-- /Search bar -->
+			<!-- ******************** -->
+			<!-- Source: AGRIS CENTER -->
+			<!-- ******************** -->
+			
+			<div id="div_153786244"
+
+
+
+
+>
+				<img id="indicator" src="search/img/loading.gif" alt="Loading..."
+					border="0" />
+			</div>
+<script type='text/javascript'>
+jQuery(document).ready(function () { 
+	var options_div_153786244 = {};
+	options_div_153786244.jqueryaction = "container";
+	options_div_153786244.id = "div_153786244";
+	options_div_153786244.href = "/agris-search/source.do;jsessionid=22507D551838DA2D785FB15B8212B4D5";
+	options_div_153786244.hrefparameter = "centerID=http%3A%2F%2Faims.fao.org%2Fnode%2F122651";
+	options_div_153786244.timeout = 10000;
+  
+
+jQuery.struts2_jquery.bind(jQuery('#div_153786244'),options_div_153786244);
+
+ });  
+</script>
+
+
+			<article>
+				<!-- ******************** -->
+				<!-- TITLE/AUTHORS -->
+				<!-- ******************** -->
+				<div class="row no-margin">
+					<!-- Resource Type  -->
+					<div
+						class="resource-type-left col-md-2 col-sm-2 col-xs-6 inner-left">
+						
+						
+						
+							<div class="docType_ico">
+								<img src="/agris-search/search/img/type/agris-icone-07.png;jsessionid=22507D551838DA2D785FB15B8212B4D5"
+									alt="Paper" title="Paper" />
+								<p>Written Paper</p>
+							</div>
+						
+						<!-- Autor - to be nation and provider letters -->
+						
+						<!-- /Autor - to be nation and provider letters -->
+					</div>
+					<!-- Title  -->
+					<div class="col-md-10 col-sm-10 col-xs-12 inner col-title">
+						<h1>
+							Wind erosion in wheel tracks of a farm tractor
+							
+								&nbsp;[1987]
+							
+						</h1>
+						<!-- Authors  -->
+						<h4 class="notranslate authors">
+							
+							
+								
+									<span> Podsiadlowski, S. (Akademia Rolnicza, Poznan (Poland))
+									</span>
+								
+								
+								
+							
+							
+						</h4>
+					</div>
+				</div>
+				<!-- /.row -->
+
+				<!-- *************** -->
+				<!-- fulltext mobile -->
+				<div class="visible-xs visible-sm"
+					style="margin-top: 10px; line-height: 33px;">
+					
+
+
+
+
+	<div class="row">
+		<div class="access-resource col-md-12 col-md-12 col-xs-12">
+			<h3>
+				
+				
+					
+						Access the full text
+					
+				
+			</h3>
+			<div class="col-xs-12">
+				
+				
+					<div class="pull-left"
+						style="font-weight: bold; margin-left: 10px; margin-top: 1px; font-style: italic; padding-bottom: 14px;">NOT
+						AVAILABLE</div>
+				
+			</div>
+		</div>
+	</div>
+
+
+
+
+				</div>
+
+				<!-- ******************************************** -->
+				<!-- Google Scholar MOBILE -->
+				<!-- Google Scholar -->
+				
+					<div class="sidebar-block hidden-md hidden-lg">
+						<div class="row no-margin">
+							<div class="access-resource col-md-12 col-md-12 col-xs-12">
+								<ul class="list-inline">
+									<li class="link-full-text"><a
+										href="https://scholar.google.com/scholar_lookup?title=Wind+erosion+in+wheel+tracks+of+a+farm+tractor&amp;author=Podsiadlowski%2C+S.+%28Akademia+Rolnicza%2C+Poznan+%28Poland%29%29&amp;publication_year=1987"
+										title="google_scholar" target="_blank"> <span
+											class="pull-left">
+													Lookup at Google Scholar
+												</span><img src="search/img/google-g-icon.png" alt="google-logo"
+											style="max-width: 23px; margin: 3px 3px 3px 8px;">
+									</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				
+
+				<!-- /end google scholar ******************************************** -->
+
+				<!-- ******************** -->
+				<!-- for Google Scholar -->
+				<div align="left" style="display: none;">
+					<div style="display: none;" id="title">
+						Wind erosion in wheel tracks of a farm tractor
+					</div>
+					<div style="display: none;" id="date">
+						1987
+					</div>
+					
+						<div style="display: none;" id="authors">
+							Podsiadlowski, S. 
+						</div>
+					
+					
+					
+					
+					
+					<!-- put the style after the ID, for existence check in the server -->
+					<div id="abstract" style="display: none;">
+						Tractor wheel-induced compaction of the soil brings about unfavourable changes in soil aggregate structure thus increasing the soil susceptibility to wind erosion. The deleterious effects of the tractor were found to be related to wheel slip, forward speed and tyre pressure
+					</div>
+					
+					
+						<div style="display: none;" id="journal">
+							[Soil Science Annual]
+						</div>
+					
+					
+						<div style="display: none;" id="agris_file">
+							1988/PL/PL1988_0.rdf
+						</div>
+					
+
+				</div>
+
+				<!-- ******************** -->
+				<!-- ABSTRACT -->
+				<!-- ******************** -->
+				<div class="abstract">
+					<div class="row">
+						<div
+							class="col-md-2 col-md-offset-10 col-sm-2 col-sm-offset-10 col-xs-5 inner">
+							<div class="addthis_sharing_toolbox pull-right"></div>
+							
+						</div>
+						<!-- /.col-md-2 -->
+					</div>
+					<!-- /.row -->
+
+					
+						
+							<div class="row no-margin">
+								Tractor wheel-induced compaction of the soil brings about unfavourable changes in soil aggregate structure thus increasing the soil susceptibility to wind erosion. The deleterious effects of the tractor were found to be related to wheel slip, forward speed and tyre pressure
+							</div>
+						
+					
+					
+					<!-- /.row -->
+				</div>
+				
+			</article>
+			<!-- /Article-->
+
+			<!-- fulltext -->
+			<div class="hidden-xs hidden-sm mashupft">
+				
+
+
+
+
+	<div class="row">
+		<div class="access-resource col-md-12 col-md-12 col-xs-12">
+			<h3>
+				
+				
+					
+						Access the full text
+					
+				
+			</h3>
+			<div class="col-xs-12">
+				
+				
+					<div class="pull-left"
+						style="font-weight: bold; margin-left: 10px; margin-top: 1px; font-style: italic; padding-bottom: 14px;">NOT
+						AVAILABLE</div>
+				
+			</div>
+		</div>
+	</div>
+
+
+
+
+				<!-- / end full text  ******************************************** -->
+
+				<!-- Google Scholar -->
+				
+					<div class="sidebar-block hidden-xs hidden-sm">
+						<div class="row no-margin">
+							<div class="access-resource col-md-12 col-md-12 col-xs-12">
+								<ul class="list-inline">
+									<li class="link-full-text"><a
+										href="https://scholar.google.com/scholar_lookup?title=Wind+erosion+in+wheel+tracks+of+a+farm+tractor&amp;author=Podsiadlowski%2C+S.+%28Akademia+Rolnicza%2C+Poznan+%28Poland%29%29&amp;publication_year=1987"
+										title="google_scholar" target="_blank"> <span
+											class="pull-left">
+													Lookup at Google Scholar
+												</span><img src="search/img/google-g-icon.png" alt="google-logo"
+											style="max-width: 23px; margin: 3px 3px 3px 8px;">
+									</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				
+
+				<!-- /end google scholar ******************************************** -->
+
+				<!-- ************************************************************ -->
+				<!-- ****************** RECORD BLOCKS ****************************-->
+				<!-- ************************************************************ -->
+				<div class="mashup-blocks">
+					<div class="row">
+						<!-- **************** -->
+						<!-- Agrovoc Keywords -->
+						
+						<div id="div_737817644"
+
+
+
+
+>
+							<img id="indicator" src="search/img/loading.gif" alt="Loading..."
+								border="0" />
+						</div>
+<script type='text/javascript'>
+jQuery(document).ready(function () { 
+	var options_div_737817644 = {};
+	options_div_737817644.jqueryaction = "container";
+	options_div_737817644.id = "div_737817644";
+	options_div_737817644.href = "/agris-search/agrovoc.do;jsessionid=22507D551838DA2D785FB15B8212B4D5";
+	options_div_737817644.hrefparameter = "recordID=PL880045588";
+	options_div_737817644.indicatorid = "indicator";
+	options_div_737817644.timeout = 10000;
+  
+
+jQuery.struts2_jquery.bind(jQuery('#div_737817644'),options_div_737817644);
+
+ });  
+</script>
+
+						<!-- /.col-md-6 -->
+
+						<!-- **************** -->
+						<!-- Other Keywords -->
+						
+
+
+
+
+
+
+						<!-- /.col-md-6 -->
+
+
+						
+
+
+
+
+	<div class="hidden-md hidden-lg hidden-xl col-xs-12">
+		<!-- Other info -->
+		<div class="mashups_record white" id="other_info">
+			<div class="row no-margin">
+				<div class="col-md-11 col-sm-11 col-xs-11 inner-left">
+					<p class="title pull-left">
+						
+							Bibliographic information
+						
+					</p>
+				</div>
+				<!-- /.col-md-11 -->
+				<div class="col-md-1 col-sm-1 col-xs-1 inner">
+					<i class="icon icon-info pull-right icon-title"></i>
+				</div>
+				<!-- /.col-md-1 -->
+			</div>
+			<!-- /.row -->
+			<div class="row no-margin">
+
+				
+					<p>
+						<i>
+								Language
+							</i>:
+						Polish
+					</p>
+				
+
+				
+					<p>
+						<i>
+								Type
+							</i>:
+						Conference
+					</p>
+				
+
+				
+					<p>
+						<i>
+								In AGRIS since
+							</i>:
+						1988
+					</p>
+				
+
+				<!-- Other info Collapse-->
+				<div class="collapse" id="other-info-collapse">
+
+					
+						<p>
+							<i>
+									Volume
+								</i>:
+							38
+						</p>
+					
+
+					
+						<p>
+							<i>
+									Issue
+								</i>:
+							1
+						</p>
+					
+
+					
+						<p>
+							<i>
+									Start Page
+								</i>:
+							157
+						</p>
+					
+
+					
+						<p>
+							<i>
+									End Page
+								</i>:
+							166
+						</p>
+					
+					
+
+					
+
+					
+
+					
+						<p>
+							<b>
+									All titles
+								</b>:
+						</p>
+						
+							<p>
+								&#34;
+								Wind erosion in wheel tracks of a farm tractor
+								&#34;
+							</p>
+						
+					
+				</div>
+				<!-- /.row -->
+			</div>
+			<!-- /.collapse#other_info -->
+			<button class="btn-collapse" title="Expand or hide content"
+				type="button" data-toggle="collapse"
+				data-target="#other-info-collapse" aria-expanded="false"
+				aria-controls="other-info-collapse">
+				<i class="icon icon-arrow-down"></i>
+			</button>
+			<!-- .btn-collapse -->
+		</div>
+		<!-- /.mashups_record-->
+	</div>
+
+
+
+
+
+
+
+
+
+						<!-- /.col-md-6 -->
+					</div>
+					<!-- /.row -->
+				</div>
+			</div>
+		</section>
+		<!-- ************************************* -->
+		<!-- Other Info Mobile-->
+		<div class="hidden-md hidden-lg hidden-xl col-xs-12"
+			style="margin-bottom: 30px;">
+			
+
+
+
+
+	<div class="sidebar-block">
+		<div class="row border-top no-margin">
+			<h3>
+				
+					Bibliographic information
+				
+			</h3>
+		</div>
+		<!-- /.row -->
+		<div class="row bibliographic-block no-margin">
+
+			
+				<div class="row">
+					<p class="col-xs-5 bibliographic-info-label">
+						
+							Language
+						:</p>
+					<p class="col-xs-7">
+						Polish
+					</p>
+				</div>
+			
+
+			
+				<div class="row">
+				<p class="col-xs-5 bibliographic-info-label">
+					
+						Type
+					:
+				</p>
+				<p class="col-xs-7">
+					Conference
+				</p>
+				</div>
+			
+
+			
+			<div class="row">
+				<p class="col-xs-5 bibliographic-info-label">
+					
+						In AGRIS since
+					:
+				</p>
+				<p class="col-xs-7">
+					1988
+				</p>
+			</div>
+			
+
+			
+			<div class="row">
+				<p class="col-xs-5 bibliographic-info-label">
+					
+							Volume
+					:
+				</p>
+				<p class="col-xs-7">
+					38
+				</p>
+			</div>
+			
+
+			
+			<div class="row">
+				<p class="col-xs-5 bibliographic-info-label">
+					
+							Issue
+					:
+				</p>
+				<p class="col-xs-7">
+					1
+				</p>
+			</div>
+			
+
+			
+			<div class="row">
+				<p class="col-xs-5 bibliographic-info-label">
+					
+							Start Page
+					:
+				</p>
+				<p class="col-xs-7">
+					157
+				</p>
+			</div>
+			
+
+			
+			<div class="row">
+				<p class="col-xs-5 bibliographic-info-label">
+					
+							End Page
+					:
+				</p>
+				<p class="col-xs-7">
+					166
+				</p>
+			</div>
+			
+			
+
+			
+
+			
+
+			
+			<div class="row">
+				<p class="col-xs-5 bibliographic-info-label">
+					<b>
+							All titles
+						</b>:
+				</p>
+				<div class="col-xs-7">
+				
+					<p>
+						&#34;
+						Wind erosion in wheel tracks of a farm tractor
+						&#34;
+					</p>
+				
+				</div>
+			</div>
+			
+			<!-- /.row -->
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+		</div>
+		<!-- ************************************* -->
+		<!-- ************ -->
+		<!-- * Journals * -->
+		<!-- ************ -->
+		
+
+
+
+
+		<div id="from_journal">
+				<div class="col-md-8 col-md-offset-1 col-sm-12 col-xs-11 border-bottom" style="margin-bottom:20px;">
+					<h3 class="no-margin">
+						
+							From the journal
+						
+					</h3>
+				</div>
+				<!-- /.col-md-11 -->
+
+			<div class="col-md-3 col-md-offset-1 col-sm-12 col-xs-12" style="margin-bottom:40px;">
+				
+					<p>
+						<b>Soil Science Annual</b>
+					</p>
+				
+
+				
+					
+						<p>
+							<i>
+									ISSN
+								</i>:
+							0080-3642
+						</p>
+					
+				
+
+				<!-- /.div below -->
+			</div>
+			<!-- /.collapse#from-journal -->
+		</div>
+		<!-- /.mashups_record-->
+
+
+		<!-- Agris article from same journal-->
+		
+			
+			<div>
+				<div id="div_1280127986"
+
+
+
+
+>
+					<img id="indicator" src="search/img/loading.gif" alt="Loading..."
+						border="0" />
+				</div>
+<script type='text/javascript'>
+jQuery(document).ready(function () { 
+	var options_div_1280127986 = {};
+	options_div_1280127986.jqueryaction = "container";
+	options_div_1280127986.id = "div_1280127986";
+	options_div_1280127986.href = "/agris-search/relart.do;jsessionid=22507D551838DA2D785FB15B8212B4D5";
+	options_div_1280127986.hrefparameter = "journalURI=http%3A%2F%2Faims.fao.org%2Fserials%2Fc_f943da61";
+	options_div_1280127986.timeout = 10000;
+  
+
+jQuery.struts2_jquery.bind(jQuery('#div_1280127986'),options_div_1280127986);
+
+ });  
+</script>
+
+			</div>
+		
+		<!-- /.col-md-6 Journals -->
+		<!-- /Main column -->
+
+	</div>
+	<!-- .container-fluid-->
+	<!-- /Content-->
+
+	<!-- Modal Favorite Success-->
+	<div class="modal fade" id="publications-saved" tabindex="-1"
+		role="dialog" aria-labelledby="Publications saved">
+		<div class="modal-dialog modal-sm" role="document">
+			<div class="modal-content">
+				<div class="modal-header relative">
+					<button type="button" class="close" data-dismiss="modal"
+						aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<h4 class="modal-title-icon absolute" id="publications-saved">
+						<i class="icon icon-success green"></i>
+					</h4>
+				</div>
+				<div class="modal-body center">
+					<p class="title blue">Congratulations</p>
+					<p>Publications saved</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
+					<!--<a href="tocollection.do" class="btn pull-right btn-full">View
+						all</a>-->
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- ****** -->
+	<!-- Footer -->
+	
+
+
+<!-- Footer -->
+<footer>
+	<div class="row agris-footer">
+		<div class="container-fluid">
+			<div class="col-md-4 col-sm-3 col-xs-12">
+				<p class="copyright">
+					<strong>AGRIS:</strong> International Information System for the
+					Agricultural Science and Technology
+				</p>
+			</div>
+			<!-- /.col-md-6 -->
+
+			<!-- Menu -->
+			<div class="col-md-5 col-sm-5 col-xs-12 footer-menu">
+				<div class="col-md-8 col-sm-8 col-xs-12 inner center">
+					<a class="feedback-link"
+						href="./info.action#feedback" target="_top">
+							Contact Us
+						</a>
+					<a class="feedback-link" style="margin-left: 20px;"
+						href="./info.action" target="_top">About AGRIS</a>
+				</div>
+			</div>
+			<!-- /.col-md-6 -->
+			<!-- /Menu -->
+			<div class="col-md-3 col-sm-4 col-xs-12 footer-logos">
+				<!-- /.col-md-6 -->
+				<div class="col-md-6 col-sm-6 col-xs-6 center" style="display:none">
+					<a target="_blank" href="https://aginfra.eu/"> <img
+						class="img-responsive" src="search/img/aginfra.png" alt="aginfra"></a>
+				</div>
+				<!-- /.col-md-6 -->
+			</div>
+			<!-- /.col-md-3 -->
+		</div>
+		<!-- /.col-md-3 -->
+	</div>
+	<!-- /.container-fluid -->
+
+	<!-- FAO footer -->
+	<div class="row FAO-footer">
+		<div class="container">
+			<div id="system-links" class="col-md-9 col-md-9 col-xs-12">
+				<div class="col-md-12 col-sm-12 col-xs-12 inner center">
+					<h4>FAO Departments and Offices</h4>
+				</div>
+				<!-- ul desktop -->
+				<div class="hidden-xs">
+					<ul class="col-md-3 col-sm-3 col-xs-6">
+						<li><a href="https://www.fao.org/contact-us/en/"
+							target="_blank">Contact us</a></li>
+						<li><a href="https://www.fao.org/contact-us/terms/en/"
+							target="_blank">Terms and Conditions</a></li>
+						<li><a href="https://www.fao.org/contact-us/scam-alert/en/"
+							target="_blank">Scam Alert</a></li>
+						<li><a href="https://www.fao.org/contact-us/report-fraud/en/"
+							target="_blank">Report fraud</a></li>
+					</ul>
+					<ul class="col-md-3 col-sm-3 col-xs-6">
+						<li><a href="https://www.fao.org/employment/home/en/"
+							target="_blank">Employment</a></li>
+						<li><a
+							href="https://www.fao.org/unfao/procurement/general-information/en/"
+							target="_blank">Procurement</a></li>
+						<li><a
+							href="https://www.fao.org/unfao/govbodies/gsbhome/gsb-home/en/"
+							target="_blank">Governing Bodies</a></li>
+						<li><a href="https://www.fao.org/aud/en/" target="_blank">Office
+								of the Inspector General</a></li>
+						<li><a href="https://www.fao.org/evaluation/oed-home/en/"
+							target="_blank">Evaluation</a></li>
+						<li><a href="https://www.fao.org/legal/home/legal-office/en/"
+							target="_blank">Legal and Ethics Office</a></li>
+					</ul>
+					<ul class="col-md-3 col-sm-3 col-xs-6">
+						<li><a href="https://www.fao.org/ag/portal/ag-home/en/"
+							target="_blank">Agriculture and Consumer Protection</a></li>
+						<li><a href="https://www.fao.org/economic/es-home/en/"
+							target="_blank">Economic and Social Development</a></li>
+						<li><a href="https://www.fao.org/fishery" target="_blank">Fisheries
+								and Aquaculture</a></li>
+						<li><a href="https://www.fao.org/forestry" target="_blank">Forestry</a></li>
+						<li><a href="https://www.fao.org/tc" target="_blank">Technical
+								Cooperation</a></li>
+					</ul>
+					<ul class="col-md-3 col-sm-3 col-xs-6">
+						<li><a href="https://www.fao.org/africa/en/" target="_blank">Regional
+								Office for Africa</a></li>
+						<li><a href="https://www.fao.org/asiapacific/en/"
+							target="_blank">Regional Office for Asia and the Pacific</a></li>
+						<li><a href="https://www.fao.org/europe/en/" target="_blank">Regional
+								Office for Europe and Central Asia</a></li>
+						<li><a href="https://www.fao.org/americas/en/" target="_blank">Regional
+								Office for Latin America and the Caribbean</a></li>
+						<li><a href="https://www.fao.org/neareast/en/" target="_blank">Regional
+								Office for the Near East and North Africa</a></li>
+						<li><a
+							href="https://www.fao.org/about/who-we-are/worldwide-offices/en/#c207632"
+							target="_blank">Country Offices</a></li>
+					</ul>
+				</div>
+				<!--/.hidden-xs -->
+				<!-- /ul desktop -->
+				<!-- ul mobile with collapse-->
+				<div class="visible-xs">
+					<div class="panel-group" id="footer-collapse" role="tablist"
+						aria-multiselectable="true">
+						<div class="panel">
+							<a class="collapsed title" role="button" data-toggle="collapse"
+								data-parent="#footer-collapse" href="#footer-list-1"
+								aria-expanded="false" aria-controls="first-list"> Contacts </a>
+							<div id="footer-list-1" class="panel-collapse collapse"
+								role="tabpanel" aria-labelledby="first-list">
+								<ul class="col-xs-12">
+									<li><a href="https://www.fao.org/contact-us/en/"
+										target="_blank">Contact us</a></li>
+									<li><a href="https://www.fao.org/contact-us/terms/en/"
+										target="_blank">Terms and Conditions</a></li>
+									<li><a href="https://www.fao.org/contact-us/scam-alert/en/"
+										target="_blank">Scam Alert</a></li>
+									<li><a
+										href="https://www.fao.org/contact-us/report-fraud/en/"
+										target="_blank">Report fraud</a></li>
+								</ul>
+							</div>
+							<!-- /.col-xs-12 -->
+						</div>
+						<!-- /#footer-list-1 -->
+						<div class="panel">
+							<a class="collapsed title" role="button" data-toggle="collapse"
+								data-parent="#footer-collapse" href="#footer-list-2"
+								aria-expanded="false" aria-controls="second-list"> Utilities
+							</a>
+							<div id="footer-list-2" class="panel-collapse collapse"
+								role="tabpanel" aria-labelledby="second-list">
+								<ul class="col-xs-12">
+									<li><a href="https://www.fao.org/employment/home/en/"
+										target="_blank">Employment</a></li>
+									<li><a
+										href="https://www.fao.org/unfao/procurement/general-information/en/"
+										target="_blank">Procurement</a></li>
+									<li><a
+										href="https://www.fao.org/unfao/govbodies/gsbhome/gsb-home/en/"
+										target="_blank">Governing Bodies</a></li>
+									<li><a href="https://www.fao.org/aud/en/" target="_blank">Office
+											of the Inspector General</a></li>
+									<li><a href="https://www.fao.org/evaluation/oed-home/en/"
+										target="_blank">Evaluation</a></li>
+									<li><a
+										href="https://www.fao.org/legal/home/legal-office/en/"
+										target="_blank">Legal and Ethics Office</a></li>
+								</ul>
+							</div>
+							<!-- /.col-xs-12 -->
+						</div>
+						<!-- /#footer-list-2 -->
+						<div class="panel">
+							<a class="collapsed title" role="button" data-toggle="collapse"
+								data-parent="#footer-collapse" href="#footer-list-3"
+								aria-expanded="false" aria-controls="third-list">
+								Departments </a>
+							<div id="footer-list-3" class="panel-collapse collapse"
+								role="tabpanel" aria-labelledby="third-list">
+								<ul class="col-xs-12">
+									<li><a href="https://www.fao.org/ag/portal/ag-home/en/"
+										target="_blank">Agriculture and Consumer Protection</a></li>
+									<li><a href="https://www.fao.org/economic/es-home/en/"
+										target="_blank">Economic and Social Development</a></li>
+									<li><a href="https://www.fao.org/fishery" target="_blank">Fisheries
+											and Aquaculture</a></li>
+									<li><a href="https://www.fao.org/forestry" target="_blank">Forestry</a></li>
+									<li><a href="https://www.fao.org/tc" target="_blank">Technical
+											Cooperation</a></li>
+								</ul>
+							</div>
+							<!-- /.col-xs-12 -->
+						</div>
+						<!-- /#footer-list-3 -->
+						<div class="panel">
+							<a class="collapsed title" role="button" data-toggle="collapse"
+								data-parent="#footer-collapse" href="#footer-list-4"
+								aria-expanded="false" aria-controls="fourth-list"> Offices </a>
+							<div id="footer-list-4" class="panel-collapse collapse"
+								role="tabpanel" aria-labelledby="fourth-list">
+								<ul class="col-xs-12">
+									<li><a href="https://www.fao.org/africa/en/"
+										target="_blank">Regional Office for Africa</a></li>
+									<li><a href="https://www.fao.org/asiapacific/en/"
+										target="_blank">Regional Office for Asia and the Pacific</a></li>
+									<li><a href="https://www.fao.org/europe/en/"
+										target="_blank">Regional Office for Europe and Central
+											Asia</a></li>
+									<li><a href="https://www.fao.org/americas/en/"
+										target="_blank">Regional Office for Latin America and the
+											Caribbean</a></li>
+									<li><a href="https://www.fao.org/neareast/en/"
+										target="_blank">Regional Office for the Near East and
+											North Africa</a></li>
+									<li><a
+										href="https://www.fao.org/about/who-we-are/worldwide-offices/en/#c207632"
+										target="_blank">Country Offices</a></li>
+								</ul>
+							</div>
+							<!-- /.col-xs-12 -->
+						</div>
+						<!-- /#footer-list-4 -->
+					</div>
+					<!-- /.panel-group -->
+				</div>
+				<!-- /.visible-xs -->
+				<!-- /ul mobile with collapse-->
+			</div>
+			<!-- /#system-links.col-md-9 -->
+			<div id="social-networks" class="col-md-3 col-sm-12 col-xs-12">
+				<div class="col-md-12 col-sm-8 col-xs-12 inner">
+					<div class="col-md-12 col-sm-12 col-xs-12 inner left">
+						<h4>Follow us on</h4>
+					</div>
+					<!-- /.col-md-12 -->
+					<ul class="list-inline pull-left">
+						<li><a
+							href="https://www.facebook.com/pages/Food-and-Agriculture-Organization-of-the-United-Nations-FAO/46370758585?ref=mf"
+							target="_blank"><img
+								src="search/img/RTEmagicC_facebook_26.png.png" alt="facebook"
+								title="facebook" class="img-responsive"></a></li>
+						<li><a
+							href="https://www.flickr.com/photos/faonews/collections/"
+							target="_blank"><img
+								src="search/img/RTEmagicC_flickr_23.png.png" alt="flickr"
+								title="flickr" class="img-responsive"></a></li>
+						<li><a href="https://plus.google.com/+UNFAO/?rel=author"
+							target="_blank"><img alt="Google+" title="Google+"
+								src="search/img/RTEmagicC_c6270bed47.png.png"
+								class="img-responsive"></a></li>
+						<li><a href="https://instagram.com/unfao" target="_blank"><img
+								alt="Instagram" title="Instagram"
+								src="search/img/RTEmagicC_456950478f.png.png"
+								class="img-responsive"></a></li>
+						<li><a href="https://www.linkedin.com/company/fao"
+							target="_blank"><img
+								src="search/img/RTEmagicC_linkedin_07.png.png" alt="LinkedIn"
+								title="LinkedIn" class="img-responsive"></a></li>
+						<li><a href="https://www.fao.org/news/rss-feed/en/"
+							target="_blank" title="Opens internal link in current window"><img
+								src="search/img/RTEmagicC_rss_19.png.png" alt="RSS news feeds"
+								title="RSS news feeds" class="img-responsive"></a></li>
+						<li><a href="https://www.slideshare.net/FAOoftheUN"
+							target="_blank"><img alt="SlideShare" title="SlideShare"
+								src="search/img/RTEmagicC_433b8859a8.png.png"
+								class="img-responsive"></a></li>
+						<li><a href="https://soundcloud.com/unfao" target="_blank"><img
+								alt="SoundCloud" title="SoundCloud"
+								src="search/img/RTEmagicC_2e22811972.png.png"
+								class="img-responsive"></a></li>
+						<li><a
+							href="https://twitter.com/FAOnews/lists/fao-twitter-accounts"
+							target="_blank"><img
+								src="search/img/RTEmagicC_twitter_01.png.png" alt="Twitter"
+								title="Twitter" class="img-responsive"></a></li>
+						<li><a href="https://www.youtube.com/user/FAOoftheUN"
+							target="_blank"> <img
+								src="search/img/RTEmagicC_youtube_40.png.png" alt="YouTube"
+								title="YouTube" class="img-responsive"></a></li>
+					</ul>
+				</div>
+				<!-- /.col-md-12 -->
+				<div class="col-md-12 col-sm-4 col-xs-12 inner-right">
+					<div class="col-md-12 col-sm-12 col-xs-12 inner left">
+						<h4>Download our App</h4>
+					</div>
+					<!-- /.col-md-12 -->
+					<div class="col-md-12 col-sm-12 col-xs-12 inner download-app">
+						<div class="col-md-4 col-sm-4 col-xs-4 inner-left">
+							<img class="img-responsive download-app-icon"
+								src="search/img/download-app-icon-55x81px.png" alt="">
+						</div>
+						<!-- /.col-md-4 -->
+						<div class="col-md-8 col-sm-8 col-xs-8 inner">
+							<ul>
+								<li><a
+									href="https://itunes.apple.com/us/app/faonow/id877618174?ls=1&amp;mt=8"
+									title="App Store" target="_blank"><img
+										class="img-responsive download-app-ios"
+										src="search/img/applestore-icon-127x38px.png" alt=""></a></li>
+								<li><a
+									href="https://play.google.com/store/apps/details?id=org.fao.mobile"
+									title="Google Play" target="_blank"><img
+										src="search/img/googleplay-icon-127x38px.png"
+										class="img-responsive download-app-android" alt=""></a></li>
+							</ul>
+						</div>
+						<!-- /.col-md-8 -->
+						<div class="col-md-12 col-sm-12 col-xs-12">
+							<a class="copyright-fao"
+								href="https://www.fao.org/contact-us/terms/en/" target="_blank">&copy;
+								FAO, 2020</a>
+						</div>
+						<!-- /.col-md-12-->
+					</div>
+					<!-- /.col-md-12 -->
+				</div>
+				<!-- /.col-md-12 -->
+			</div>
+			<!-- /.col-md-12 -->
+		</div>
+		<!-- /.container-->
+	</div>
+	<!-- /.FAO-footer-->
+	<!-- /Footer FAO -->
+</footer>
+<!-- /Footer -->
+
+
+	<!-- Google Translate -->
+	<script type="text/javascript">
+		function googleTranslateElementInit() {
+			new google.translate.TranslateElement({
+				pageLanguage : 'en',
+				layout : google.translate.TranslateElement.InlineLayout.SIMPLE,
+				multilanguagePage : true,
+				gaTrack : true,
+				gaId : 'UA-16953388-1'
+			}, 'google_translate_element');
+		}
+	</script>
+	<script
+		src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+		type="text/javascript"></script>
+
+	<!-- Add this social buttons https://www.addthis.com -->
+	<script type="text/javascript"
+		src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5725f813ee4a02a2"></script>
+
+	<!-- ************************************************ -->
+	<!-- ********** FAO Google Analytics code *********** -->
+	<!-- ************************************************ -->
+	<!-- Google Analytics -->
+	<script>
+		(function(i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function() {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script',
+				'//www.google-analytics.com/analytics.js', '_gaTracker');
+		_gaTracker('create', 'UA-16953388-1', 'fao.org');
+		_gaTracker('send', 'pageview');
+		_gaTracker('create', 'UA-16957552-1', {
+			'name' : 'allSites'
+		});
+		_gaTracker('allSites.send', 'pageview');
+	</script>
+	<!-- End Google Analytics -->
+
+</body>
+</html>

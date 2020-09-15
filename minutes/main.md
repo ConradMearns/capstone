@@ -41,3 +41,39 @@ None
 - Review previous team's project resources
 
 *Next meeting* - Fri 26, 2pm, Library
+
+
+
+
+Minutes - Tuesday, March 3rd, 2020
+=====================================
+3:39pm - 
+-------------------------------------
+
+## Meeting participants:
+Conrad Mearns, Joshua Dempsey, Damon Schafer
+
+
+## Ammendments to previous Minutes
+None
+
+## Agenda Items
+
+### Sign final draft of the contract
+
+### Name decision - Dev's Dev's
+
+*No Votes*
+
+*No Motions*
+
+*No items held over*
+
+- Review previous team's project resources
+
+*New business*
+
+- Wikipedia / Knowledgebase
+- Review Farming Simulator Terrain API
+
+*Next meeting* - Tue 10, 3:30pm, One World

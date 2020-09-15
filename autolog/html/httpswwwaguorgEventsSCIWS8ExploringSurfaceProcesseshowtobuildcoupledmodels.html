@@ -1,0 +1,714 @@
+
+<!DOCTYPE html>
+<!--[if IE 9]><html lang="en" class="ie9 no-js"><![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8" />
+<title>Exploring Surface Processes: How to Build Coupled Models</title>
+<meta name="description" content="The full-day tutorial aims to provide a short overview of the PyMT and Landlab, a demonstration of running a coupled model, and hands-on exercises using Jupyter notebooks in small groups of attendees. " />
+<meta property="og:description" content="&lt;p&gt;Predicting long-term Earth surface change or the impacts of short-term natural hazards requires computational models. Many existing numerical models quantitatively describe sediment transport processes, predicting terrestrial and coastal change at a great variety of scales. However, these models often address a single process or component of the Earth surface system.&amp;nbsp; &amp;nbsp;&lt;/p&gt;
+&lt;p&gt;The Community Surface Dynamics Modeling System is a NSF-funded initiative that supports the open software efforts of the surface processes community. CSDMS distributes &amp;gt;200 models and tools, and provides cyberinfrastructure to simulate lithosphere, hydrosphere, atmosphere, or cryosphere dynamics. Many of the most exciting problems in these fields arise at the interfaces of different environments and through complex interactions of processes.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;This workshop presents cyberinfrastructure tools for hypothesis-driven modeling&amp;mdash; the Python Modeling Tool (PyMT) and LandLab. PyMT allows users to interactively run and couple numerical models contributed by the community. There are already tools for coastal &amp;amp; permafrost modeling, stratigraphic and subsidence modeling, and terrestrial landscape evolution modeling (including hillslope, overflow, landslide processes, and a suite of erosion processes with vegetation interactions), and these are easy to run and further develop in a Python environment.&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;The full-day tutorial aims to provide a short overview of the PyMT and Landlab, a demonstration of running a coupled model, and hands-on exercises using Jupyter notebooks in small groups of attendees. The organizers will facilitate break-out groups for discussion of pressing research needs and then have a plenary discussion with reports of each of the breakouts on future frontier applications of coupled landscape process modeling.&lt;/p&gt;
+&lt;h6&gt;Price&lt;/h6&gt;
+&lt;p&gt;$150 (regular)/$75 (student)&lt;/p&gt;" />
+<style>
+        .highlight {background-color: #0247fe;color: #fff;}
+        .error {color: #e65757;font-weight: 500;font-family: 'Montserrat', sans-serif;}
+    </style>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"e8912e1267","applicationID":"641907601","transactionName":"bgAEMEdTDEtSU0YNVldKKzJ2HTFRR1VRC0tcJgkKQUANVF9VQEtwVwEDHA==","queueTime":0,"applicationTime":79,"agent":"","atts":""}</script><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"e8912e1267",applicationID:"641907601"};window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var i=n[t]={exports:{}};e[t][0].call(i.exports,function(n){var i=e[t][1][n];return r(i||n)},i,i.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(e,n,t){function r(){}function i(e,n,t){return function(){return o(e,[u.now()].concat(f(arguments)),n?null:this,t),n?void 0:this}}var o=e("handle"),a=e(4),f=e(5),c=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",d=l+"ixn-";a(p,function(e,n){s[n]=i(l+n,!0,"api")}),s.addPageAction=i(l+"addPageAction",!0),s.setCurrentRouteName=i(l+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,i="function"==typeof n;return o(d+"tracer",[u.now(),e,t],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return n.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],t),e}finally{c.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=i(d+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){var t=e.getEntries();t.forEach(function(e){"first-paint"===e.name?c("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&c("timing",["fcp",Math.floor(e.startTime)])})}function i(e,n){var t=e.getEntries();t.length>0&&c("lcp",[t[t.length-1]])}function o(e){if(e instanceof s&&!l){var n,t=Math.round(e.timeStamp);n=t>1e12?Date.now()-t:u.now()-t,l=!0,c("timing",["fi",t,{type:e.type,fid:n}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var a,f,c=e("handle"),u=e("loader"),s=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){a=new PerformanceObserver(r),f=new PerformanceObserver(i);try{a.observe({entryTypes:["paint"]}),f.observe({entryTypes:["largest-contentful-paint"]})}catch(p){}}if("addEventListener"in document){var l=!1,d=["click","keydown","mousedown","pointerdown","touchstart"];d.forEach(function(e){document.addEventListener(e,o,!1)})}}},{}],3:[function(e,n,t){function r(e,n){if(!i)return!1;if(e!==i)return!1;if(!n)return!0;if(!o)return!1;for(var t=o.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}n.exports={agent:i,version:o,match:r}},{}],4:[function(e,n,t){function r(e,n){var t=[],r="",o=0;for(r in e)i.call(e,r)&&(t[o]=n(r,e[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],5:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,i=t-n||0,o=Array(i<0?0:i);++r<i;)o[r]=e[n+r];return o}n.exports=r},{}],6:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function i(e){function n(e){return e&&e instanceof r?e:e?c(e,f,o):o()}function t(t,r,i,o){if(!l.aborted||o){e&&e(t,r,i);for(var a=n(i),f=v(t),c=f.length,u=0;u<c;u++)f[u].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function d(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||i(t)}function w(e,n){u(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:d,addEventListener:d,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(l.aborted=!0,s=l.backlog={})}var f="nr@context",c=e("gos"),u=e(4),s={},p={},l=n.exports=i();l.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(i.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[n]=r,r}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){i.buffer([e],r),i.emit(e,n,t)}var i=e("ee").get("handle");n.exports=r,r.ee=i},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=E.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();u(y,function(n,t){e[n]||(e[n]=t)}),c("mark",["onload",a()+E.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function i(){"complete"===d.readyState&&o()}function o(){c("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(f=Math.max((new Date).getTime(),f))-E.offset}var f=(new Date).getTime(),c=e("handle"),u=e(4),s=e("ee"),p=e(3),l=window,d=l.document,m="addEventListener",v="attachEvent",g=l.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:g,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1167.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),E=n.exports={offset:f,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),e(2),d[m]?(d[m]("DOMContentLoaded",o,!1),l[m]("load",r,!1)):(d[v]("onreadystatechange",i),l[v]("onload",r)),c("mark",["firstbyte",f],null,"api");var x=0,O=e(6)},{}],"wrap-function":[function(e,n,t){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(5),a="nr@original",f=Object.prototype.hasOwnProperty,c=!1;n.exports=function(e,n){function t(e,n,t,i){function nrWrapper(){var r,a,f,c;try{a=this,r=o(arguments),f="function"==typeof t?t(r,a):t||{}}catch(u){l([u,"",[r,a,i],f])}s(n+"start",[r,a,i],f);try{return c=e.apply(a,r)}catch(p){throw s(n+"err",[r,a,p],f),p}finally{s(n+"end",[r,a,c],f)}}return r(e)?e:(n||(n=""),nrWrapper[a]=e,p(e,nrWrapper),nrWrapper)}function u(e,n,i,o){i||(i="");var a,f,c,u="-"===i.charAt(0);for(c=0;c<n.length;c++)f=n[c],a=e[f],r(a)||(e[f]=t(a,u?f+i:i,o,f))}function s(t,r,i){if(!c||n){var o=c;c=!0;try{e.emit(t,r,i,n)}catch(a){l([a,t,r,i])}c=o}}function p(e,n){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(e);return t.forEach(function(t){Object.defineProperty(n,t,{get:function(){return e[t]},set:function(n){return e[t]=n,n}})}),n}catch(r){l([r])}for(var i in e)f.call(e,i)&&(n[i]=e[i]);return n}function l(n){try{e.emit("internal-error",n)}catch(t){}}return e||(e=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="/Scripts/AguSearch/Common/agu.manageUrl.js"></script>
+
+<script type="text/javascript" src="/Scripts/apiGateway-js-sdk/js-lib/axios/dist/axios.standalone.js"></script>
+<script type="text/javascript" src="/Scripts/apiGateway-js-sdk/js-lib/CryptoJS/rollups/hmac-sha256.js"></script>
+<script type="text/javascript" src="/Scripts/apiGateway-js-sdk/js-lib/CryptoJS/rollups/sha256.js"></script>
+<script type="text/javascript" src="/Scripts/apiGateway-js-sdk/js-lib/CryptoJS/components/hmac.js"></script>
+<script type="text/javascript" src="/Scripts/apiGateway-js-sdk/js-lib/CryptoJS/components/enc-base64.js"></script>
+<script type="text/javascript" src="/Scripts/apiGateway-js-sdk/js-lib/url-template/url-template.js"></script>
+<script type="text/javascript" src="/Scripts/apiGateway-js-sdk/js-lib/apiGatewayCore/sigV4Client.js"></script>
+<script type="text/javascript" src="/Scripts/apiGateway-js-sdk/js-lib/apiGatewayCore/apiGatewayClient.js"></script>
+<script type="text/javascript" src="/Scripts/apiGateway-js-sdk/js-lib/apiGatewayCore/simpleHttpClient.js"></script>
+<script type="text/javascript" src="/Scripts/apiGateway-js-sdk/js-lib/apiGatewayCore/utils.js"></script>
+<script type="text/javascript" src="/Scripts/apiGateway-js-sdk/apigClient.js"></script>
+
+<script type="text/javascript" src="/Scripts/agusearch/Common/agu.method.js"></script>
+<script type="text/javascript" src="/Scripts/agusearch/Common/Highlight.js"></script>
+<script type="text/javascript" src="/Scripts/agusearch/Common/micrositeSearch.js"></script>
+<script type="text/javascript" src="/Scripts/agusearch/common/agu.rankingSearch.js"></script>
+<script type="text/javascript" src="/Scripts/jquery.simplePagination.js"></script>
+
+<script type="text/javascript" src="/Scripts/Agu/Common/AguCommon.js"></script>
+<script type="text/javascript" src="/Scripts/Agu/Common/EditBecomeMember.js"></script>
+<script type="text/javascript" src="/Scripts/agu/Common/agu.redirectUrl.js"></script>
+<script type="text/javascript" src="/Scripts/Profile/CommonValidation.js"></script>
+<link href="/Scripts/ideabox-tabs.min.css" rel="stylesheet" />
+<link href="/styles/vendor.min.css" rel="stylesheet" />
+<link href="/styles/agu.min.css" rel="stylesheet" />
+<script src="/scripts/Sitecore.Foundation.Frameworks.min.js"></script>
+<script src="/scripts/Sitecore.Foundation.Theming.min.js"></script>
+
+<script>
+           (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MZMNF2B');
+        </script>
+</head>
+<body class="header-static ">
+
+<input type="hidden" id="externalRedirect" value='' />
+<input type="hidden" id="externalendPoint" value='' />
+<input type="hidden" id="externalWebsiteUrl" value='' />
+<input type="hidden" id="externalParams" value='' />
+<input type="hidden" id="externalValidation" value='' />
+<input type="hidden" value="/api/sitecore/updatemembership/UpdateMembershipDetails" id="hdnUrlMembersId" />
+<input type="hidden" value="" id="hfDemographicmodelEdit" />
+<input type="hidden" id="hfOrganizationListUrl" value="/api/sitecore/organization/GetOrganizations" />
+<div class="modal fade bd-example-modal-lg" data-backdrop="static" data-keyboard="false" tabindex="-1" id="modalLoader">
+<div style="width: 48px">
+<div class="loading">Loading&#8230;</div>
+<input type="hidden" id="hfReChannnelRef" value='/api/sitecore/channel/FollowAndUnfollowChannel' />
+</div>
+</div>
+<div id="ExceptionPopup" class="modal fade" role="dialog">
+<div class="modal-dialog">
+
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" onclick="CloseExceptionPopup();" class="close" data-dismiss="modal">&times;</button>
+<h4 class="modal-title">Error</h4>
+</div>
+<div class="modal-body" style="height: 125px !important;">
+<p id="exceptionmessage"></p>
+<button type="button" style="margin-left: 2%;" onclick="CloseExceptionPopup()" class="button button-secondary secondButton">OK</button>
+</div>
+</div>
+</div>
+</div>
+<div id="ThirdPartyRedirectLogin" class="modal fade" role="dialog">
+<div class="modal-dialog">
+
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Login </h4>
+</div>
+<div class="modal-body" style="height: 125px !important;">
+<p id="">Click “Confirm” to login to your existing account or create a new account.</p>
+<button type="button" style="margin-left: 2%;" onclick="ConfirmRedirect()" class="button button-secondary secondButton">Confirm</button>
+<button type="button" data-dismiss="modal" onclick="CloseExceptionPopup()" class="button button-secondary secondButton">Cancel</button>
+</div>
+</div>
+</div>
+</div>
+<div id="ThirdPartyRedirectOceanScienceLogin" class="modal fade" role="dialog">
+<div class="modal-dialog">
+
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Login </h4>
+</div>
+<div class="modal-body">
+<p id="">Click “Confirm” to login to your existing account or create a new account.</p>
+<button type="button" onclick="OceanScienceRedirect()" class="button button-secondary secondButton">Confirm</button>
+<button type="button" data-dismiss="modal" onclick="CloseExceptionPopup()" class="button button-secondary secondButton">Cancel</button>
+</div>
+</div>
+</div>
+</div>
+<div id="ThirdPartyRedirectMember" class="modal fade" role="dialog">
+<div class="modal-dialog">
+
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Become Membership Confirmation</h4>
+</div>
+<div class="modal-body" style="height: 125px !important;">
+<p id="">You must purchase an AGU membership to complete this session. Click on confirm to purchase.</p>
+<button type="button" style="margin-left: 2%;" onclick="ConfirmRedirect()" class="button button-secondary secondButton">Confirm</button>
+<button type="button" data-dismiss="modal" onclick="CloseExceptionPopup()" class="button button-secondary secondButton">Cancel</button>
+</div>
+</div>
+</div>
+</div>
+<div id="ThirdPartyRedirectRenew" class="modal fade" role="dialog">
+<div class="modal-dialog">
+
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Heading</h4>
+</div>
+<div class="modal-body" style="height: 125px !important;">
+<p id="">Message</p>
+<button type="button" style="margin-left: 2%;" onclick="RenewRedirect()" class="button button-secondary secondButton">ConfirmButton</button>
+<button type="button" data-dismiss="modal" onclick="CloseExceptionPopup()" class="button button-secondary secondButton">CancelButton</button>
+</div>
+</div>
+</div>
+</div>
+<div id="ThirdPartyRedirect" class="modal fade" role="dialog">
+<div class="modal-dialog">
+
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Leaving AGU</h4>
+</div>
+<div class="modal-body" style="height: 125px !important;">
+<p id="">You are redirecting to an external site. Are you sure you want to continue?</p>
+<button type="button" style="margin-left: 2%;" onclick="DefaultExtRedirect()" class="button button-secondary secondButton">Confirm</button>
+<button type="button" data-dismiss="modal" onclick="CloseExceptionPopup()" class="button button-secondary secondButton">Cancel</button>
+</div>
+</div>
+</div>
+</div>
+<div id="main-container" class="container-layout">
+<header class="row header-section">
+<nav class="navbar navbar-default navbar-static" id="mainNavbar" style="position:static;">
+<div class="col-sm-3 col-md-3 col-lg-5">
+<div class="logo-section">
+<div class="navbar-left">
+﻿
+<a class="navbar-brand " href="/">
+<span class="logo">
+<img src="/-/media/Feature/Common/Agu/Images/Logo/AGU-Logo-new.png?h=50&amp;mh=50&amp;w=257&amp;hash=9A5DA2F4D18D3097CA2E3C4FCBD0BBC3" alt="AGU logo" width="257" height="50" DisableWebEdit="False" />
+</span>
+</a>
+</div>
+</div>
+</div>
+<div class="col-sm-9 col-md-9 col-lg-7" style="position:static;">
+<div class="navbar-right microSite">
+<span class="menuHome">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#siteNavbar" aria-expanded="false">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</span>
+<span class="menuMicrosite">
+<div class="imMobileSearch forMobile">
+<button id="microSearchBtnMob" class="searchBtn" onclick=""></button>
+</div>
+<button type="button" class="navbar-toggle collapsed" id="siteNavbarMicro">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</span>
+<span class="secondarylogo" style="float:right;">
+<button id="defaultSearchBtn" class="searchBtn default" onclick=""></button>
+<button type="button" class="navbar-toggle handburgerIcon" id="selogo">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar first"></span>
+<span class="icon-bar second"></span>
+<span class="icon-bar last"></span>
+</button>
+</span>
+<div id="defaultSearchInput" class="microSearch defaultsearch form-cell">
+<input type="text" class="form-control" placeholder="Search our site, science across AGU, people, and more" id="mainSearch" />
+<button class="searchBtn withClose" id="defaultSearchClose"></button>
+<button class="clickButton" onclick="MainRedirectUrl()"></button>
+</div>
+<input type="hidden" id="mainSearchPlaceholder" value="Search our site, science across AGU, people, and more" />
+<script>
+    $(document).ready(function () {
+        $("#defaultSearchInput input").attr("placeholder", "Search our site, science across AGU, people, and more");
+    })
+
+    $("#selogo").click(function () {
+        $("#mainNav").addClass("menuopen");
+    });
+    $("#closemainNave").click(function () {
+        $("#mainNav").removeClass("menuopen");
+    });
+
+    // search box
+    $("#defaultSearchBtn").click(function () {
+        $("#defaultSearchInput").addClass("active");
+        $("#defaultSearchInput input").val("");
+    });
+    $("#defaultSearchClose").click(function () {
+        $("#defaultSearchInput").removeClass("active");
+    });
+
+
+    $(function () {
+        $('#mainSearch').keypress(function (e) {
+            if (e.which == 13) {//Enter key pressed
+                MainRedirectUrl();//Trigger search button click event
+            }
+        });
+    });
+
+    function MainRedirectUrl() {
+        var searchResData = $("#mainSearch").val();
+        if (searchResData != undefined && searchResData != "") {
+            var pathName = window.location.pathname;
+            if (pathName == "/search") {
+                window.location.href = window.location.href;
+                localStorage.setItem("search", searchResData);
+            } else {
+                window.location.href = window.location.origin + '/search';
+                localStorage.setItem("search", searchResData);
+            }
+            
+            
+        }
+    }
+
+</script>
+<div class="collapse navbar-collapse" id="siteNavbar">
+<ul class="nav navbar-nav">
+<li class="">
+<a class="text-uppercase" href="/Learn-About-AGU/About-AGU/DTI-Updates" target="">
+Site demo
+</a>
+</li>
+<li class="">
+<a class="text-uppercase" href="/Join" target="_blank">
+Join
+</a>
+</li>
+<li class="">
+<a class="text-uppercase" href="/Login" target="">
+Renew
+</a>
+</li>
+<li class="">
+<a class="text-uppercase" href="/Give-to-AGU/Giving" target="">
+Give
+</a>
+</li>
+<li class="">
+<a class="text-uppercase" href="/Login" target="_blank">
+Login
+</a>
+</li>
+</ul>
+</div>
+<div class="collapse navbar-collapse" id="siteNavbarx">
+<div class="mobileMenuClose" id="menuClosed"></div>
+</div>
+<div class="menuBackground" id="menuBackgroundColor"></div>
+<div id="microSearchInput" class="microSearch form-cell">
+<input type="text" class="form-control" placeholder="Search Text" id="microSiteSearchText" />
+<button class="searchBtn withClose" id="searchClose"></button>
+<button class="clickButton msSite" onclick="SearchMicroSite('{E7412AAF-B8DD-408E-A5E1-957F52AA228C}')"></button>
+</div>
+</div>
+</nav>
+<script>
+    $(document).ready(function () {
+
+        $("#siteNavbarMicro").click(function () {
+            $("#menuBackgroundColor").show();
+            $("#siteNavbarx").addClass("active");
+
+        });
+        $("#menuClosed").click(function () {
+            $("#siteNavbarx").removeClass("active");
+            $("#menuBackgroundColor").hide();
+            $(".sub-dropdown-menu").css('display', 'none');
+            $("#siteNavbarx .navbar-nav>li>a").parent().removeClass("active");
+            $("#siteNavbarx > ul > li").removeClass("mobileActive");
+            $("#siteNavbarx > ul > li").css('display', '');
+        })
+
+        //$("#siteNavbar li").click(function (e) {
+        //    $('ul', this).show();
+        //    e.stopPropagation();
+        //});
+
+
+        $("#microSearchBtn").click(function () {
+            $("#microSearchInput").addClass("active");
+        });
+        //$("#microSearchBtnMob").click(function () {
+        //    $("#microSearchInput").addClass("active");
+        //});
+        $("#searchClose").click(function () {
+            $("#microSearchInput").removeClass("active");
+        });
+
+        $("body").click(function (e) {
+            var ua = navigator.userAgent.toLowerCase();
+            var isAndroid = ua.indexOf("android") > -1;
+            var isIphone = ua.indexOf("iphone") > -1;
+            if (isAndroid == true || isIphone == true) {
+                //return false;
+            } else {
+                $(".sub-dropdown-menu").css('display', 'none');
+                $("#siteNavbarx li").removeClass("active");
+            }
+        });
+
+    });
+</script>
+</header>
+<main role="main" class="row">
+<section class="section section-full ">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+﻿﻿﻿
+<div class="section">
+<div class="meetingEventDetails">
+<div class="row">
+<div class="col-md-8">
+<div class="eventTitle" id="eventTitleId">
+SCIWS8: Exploring Surface Processes: How to Build Coupled Models
+</div>
+<h5 class="orgName">Workshop</h5>
+<div class="eventSubText">
+<p>Predicting long-term Earth surface change or the impacts of short-term natural hazards requires computational models. Many existing numerical models quantitatively describe sediment transport processes, predicting terrestrial and coastal change at a great variety of scales. However, these models often address a single process or component of the Earth surface system.&nbsp; &nbsp;</p>
+<p>The Community Surface Dynamics Modeling System is a NSF-funded initiative that supports the open software efforts of the surface processes community. CSDMS distributes &gt;200 models and tools, and provides cyberinfrastructure to simulate lithosphere, hydrosphere, atmosphere, or cryosphere dynamics. Many of the most exciting problems in these fields arise at the interfaces of different environments and through complex interactions of processes.&nbsp;</p>
+<p>This workshop presents cyberinfrastructure tools for hypothesis-driven modeling&mdash; the Python Modeling Tool (PyMT) and LandLab. PyMT allows users to interactively run and couple numerical models contributed by the community. There are already tools for coastal &amp; permafrost modeling, stratigraphic and subsidence modeling, and terrestrial landscape evolution modeling (including hillslope, overflow, landslide processes, and a suite of erosion processes with vegetation interactions), and these are easy to run and further develop in a Python environment.&nbsp;&nbsp;</p>
+<p>The full-day tutorial aims to provide a short overview of the PyMT and Landlab, a demonstration of running a coupled model, and hands-on exercises using Jupyter notebooks in small groups of attendees. The organizers will facilitate break-out groups for discussion of pressing research needs and then have a plenary discussion with reports of each of the breakouts on future frontier applications of coupled landscape process modeling.</p>
+<h6>Price</h6>
+<p>$150 (regular)/$75 (student)</p>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="venue">
+<div class="calIcon">
+<i class="fa fa-calendar" aria-hidden="true"></i>
+</div>
+<div class="vanueText">
+<p>From Sunday, 08 December 2019 08:00 AM</p>
+<p>To Sunday, 08 December 2019 04:00 PM</p>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="venue">
+<div class="calIcon">
+<i class="fa fa-map-marker" aria-hidden="true"></i>
+</div>
+<div class="vanueText">
+<p>
+Grand Hyatt<br>
+Fillmore
+</p>
+</div>
+</div>
+</div>
+</div>
+<div class="importantDadlinesLinks">
+<div class="eventSubText" style="display:none">
+</div>
+<div class="eventSubText" style="display:none">
+</div>
+<div class="eventSubText" style="display:none">
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div>
+</div>
+<form action="/api/sitecore/Meetings/AddToICalendar?eventDownloadableFileName=meetingInvite.ics&amp;eventName=SCIWS8%3A%20Exploring%20Surface%20Processes%3A%20How%20to%20Build%20Coupled%20Models&amp;eventStartDate=Sunday%2C%2008%20December%202019%2008%3A00%20AM&amp;eventEndDate=Sunday%2C%2008%20December%202019%2004%3A00%20PM&amp;eventDescription=%3Cp%3EPredicting%20long-term%20Earth%20surface%20change%20or%20the%20impacts%20of%20short-term%20natural%20hazards%20requires%20computational%20models.%20Many%20existing%20numerical%20models%20quantitatively%20describe%20sediment%20transport%20processes%2C%20predicting%20terrestrial%20and%20coastal%20change%20at%20a%20great%20variety%20of%20scales.%20However%2C%20these%20models%20often%20address%20a%20single%20process%20or%20component%20of%20the%20Earth%20surface%20system.%26nbsp%3B%20%26nbsp%3B%3C%2Fp%3E%0A%3Cp%3EThe%20Community%20Surface%20Dynamics%20Modeling%20System%20is%20a%20NSF-funded%20initiative%20that%20supports%20the%20open%20software%20efforts%20of%20the%20surface%20processes%20community.%20CSDMS%20distributes%20%26gt%3B200%20models%20and%20tools%2C%20and%20provides%20cyberinfrastructure%20to%20simulate%20lithosphere%2C%20hydrosphere%2C%20atmosphere%2C%20or%20cryosphere%20dynamics.%20Many%20of%20the%20most%20exciting%20problems%20in%20these%20fields%20arise%20at%20the%20interfaces%20of%20different%20environments%20and%20through%20complex%20interactions%20of%20processes.%26nbsp%3B%3C%2Fp%3E%0A%3Cp%3EThis%20workshop%20presents%20cyberinfrastructure%20tools%20for%20hypothesis-driven%20modeling%26mdash%3B%20the%20Python%20Modeling%20Tool%20%28PyMT%29%20and%20LandLab.%20PyMT%20allows%20users%20to%20interactively%20run%20and%20couple%20numerical%20models%20contributed%20by%20the%20community.%20There%20are%20already%20tools%20for%20coastal%20%26amp%3B%20permafrost%20modeling%2C%20stratigraphic%20and%20subsidence%20modeling%2C%20and%20terrestrial%20landscape%20evolution%20modeling%20%28including%20hillslope%2C%20overflow%2C%20landslide%20processes%2C%20and%20a%20suite%20of%20erosion%20processes%20with%20vegetation%20interactions%29%2C%20and%20these%20are%20easy%20to%20run%20and%20further%20develop%20in%20a%20Python%20environment.%26nbsp%3B%26nbsp%3B%3C%2Fp%3E%0A%3Cp%3EThe%20full-day%20tutorial%20aims%20to%20provide%20a%20short%20overview%20of%20the%20PyMT%20and%20Landlab%2C%20a%20demonstration%20of%20running%20a%20coupled%20model%2C%20and%20hands-on%20exercises%20using%20Jupyter%20notebooks%20in%20small%20groups%20of%20attendees.%20The%20organizers%20will%20facilitate%20break-out%20groups%20for%20discussion%20of%20pressing%20research%20needs%20and%20then%20have%20a%20plenary%20discussion%20with%20reports%20of%20each%20of%20the%20breakouts%20on%20future%20frontier%20applications%20of%20coupled%20landscape%20process%20modeling.%3C%2Fp%3E%0A%3Ch6%3EPrice%3C%2Fh6%3E%0A%3Cp%3E%24150%20%28regular%29%2F%2475%20%28student%29%3C%2Fp%3E&amp;eventUrl=http%3A%2F%2Fwww.agu.org%2Fen%2FEvents%2FSCIWS8-Exploring%20Surface%20Processes%20how%20to%20build%20coupled%20models" method="post"> <div class="addtoCalendarSec">
+<input type="button" class="button button-primary" value="add to calendar" onclick="downloadIcsCal()">
+<div class="channelSocialMediaSection">
+<div class="channelSocialButton social" id="social5">
+</div>
+</div>
+</div>
+</form> </div>
+</div>
+</div>
+<input type="hidden" value="SCIWS8: Exploring Surface Processes: How to Build Coupled Models" id="icsTitleId" />
+<input type="hidden" value="&lt;p&gt;Predicting long-term Earth surface change or the impacts of short-term natural hazards requires computational models. Many existing numerical models quantitatively describe sediment transport processes, predicting terrestrial and coastal change at a great variety of scales. However, these models often address a single process or component of the Earth surface system.&amp;nbsp; &amp;nbsp;&lt;/p&gt;
+&lt;p&gt;The Community Surface Dynamics Modeling System is a NSF-funded initiative that supports the open software efforts of the surface processes community. CSDMS distributes &amp;gt;200 models and tools, and provides cyberinfrastructure to simulate lithosphere, hydrosphere, atmosphere, or cryosphere dynamics. Many of the most exciting problems in these fields arise at the interfaces of different environments and through complex interactions of processes.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;This workshop presents cyberinfrastructure tools for hypothesis-driven modeling&amp;mdash; the Python Modeling Tool (PyMT) and LandLab. PyMT allows users to interactively run and couple numerical models contributed by the community. There are already tools for coastal &amp;amp; permafrost modeling, stratigraphic and subsidence modeling, and terrestrial landscape evolution modeling (including hillslope, overflow, landslide processes, and a suite of erosion processes with vegetation interactions), and these are easy to run and further develop in a Python environment.&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;The full-day tutorial aims to provide a short overview of the PyMT and Landlab, a demonstration of running a coupled model, and hands-on exercises using Jupyter notebooks in small groups of attendees. The organizers will facilitate break-out groups for discussion of pressing research needs and then have a plenary discussion with reports of each of the breakouts on future frontier applications of coupled landscape process modeling.&lt;/p&gt;
+&lt;h6&gt;Price&lt;/h6&gt;
+&lt;p&gt;$150 (regular)/$75 (student)&lt;/p&gt;" id="icsDescId" />
+<input type="hidden" value="Sunday, 08 December 2019 08:00 AM" id="icsStartDtId" />
+<input type="hidden" value="Sunday, 08 December 2019 04:00 PM" id="icsEnddtId" />
+<input type="hidden" value="http://www.agu.org/en/Events/SCIWS8-Exploring Surface Processes how to build coupled models" id="icsUrlId" />
+<input type="hidden" value="" id="icsLocId" />
+</div>
+<script src="/Scripts/social-buttons-share.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#social5').channelSocialButtonsShare({
+            socialNetworks: ['facebook', 'linkedIn', 'twitter', 'email'],
+            url: window.location.href,
+            text: $("#eventTitleId").val(),
+            sharelabel: false,
+            sharelabelText: 'SHARE',
+            verticalAlign: false
+        });
+    });
+
+    function downloadIcsCal() {
+        var title = $("#icsTitleId").val();
+        var dt = new Date(stDate);
+        var stDate = new Date($("#icsStartDtId").val()).toISOString();
+        var enDate = ($("#icsEnddtId").val() != undefined && $("#icsEnddtId").val() != "") ? new Date($("#icsEnddtId").val()).toISOString() : $("#icsEnddtId").val();
+        var loc = $("#icsLocId").val();
+        var desc = $("#icsDescId").val().replace(/<[^>]*>/g, '').replace(/\n|\r/g, "");
+        var eventUrl = $("#icsUrlId").val();
+
+        $.ajax({
+            url: "/api/sitecore/Meetings/AddToICalendar",
+            type: 'POST',
+            datatype: "json",
+            data: {
+                'eventDownloadableFileName': "meeting.ics", 'eventName': $("#icsTitleId").val(),
+                'eventStartDate': $("#icsStartDtId").val(), 'eventEndDate': $("#icsEnddtId").val(), 'eventLocation': $("#icsLocId").val(), 'eventDescription': desc, 'eventUrl': $("#icsUrlId").val()
+            },
+            contenttype: 'application/json; charset=utf-8',
+            success: function (data) {
+
+                var script = eventUrl;
+                var sciptAfter = eventUrl;
+                var icsMSG = "BEGIN:VCALENDAR\nPRODID:-//AGU Event Calender//EN\nVERSION:2.0\nBEGIN:VEVENT\nSUMMARY;LANGUAGE=en-us:" + title + "\nCLASS:PUBLIC\nDTSTART:" + stDate + "\nDTEND:" + enDate + "\nDESCRIPTION:" + desc + ' ' + sciptAfter + "\nLOCATION:" + loc + "\nSEQUENCE:0\nUID: b9e138fa-04ee-4a0a-8b2a-ab5936992740\nEND:VEVENT\nEND:VCALENDAR";
+                window.open("data:text/calendar;charset=utf8," + escape(icsMSG));
+            },
+            error: function (xhr) {
+            }
+        });
+    }
+
+</script>
+</div>
+</div>
+</div>
+</section><div id="mainNav">
+<div class="menuOuter"></div>
+<div class="mainMenu">
+<a href="javascript:void(0)" title="close" class="menuClose" id="closemainNave"></a>
+<div class="userdetailsonmobile">
+<div class="namebox"><a href="/login">Login</a></div>
+</div>
+<div class="mobileBackBtn"><a class="mobileBackClick">Back</a></div>
+<div class="menuSectionOuter">
+<div class="menuSection" id="mobileLeftMenu">
+
+<ul class="menuType2 primMenu">
+<li>
+<a href="/Learn-About-AGU/About-AGU/DTI-Updates">Site demo</a>
+</li>
+<li>
+<a href="/Join">Join</a>
+</li>
+<li>
+<a href="/Login">Renew</a>
+</li>
+<li>
+<a href="/Give-to-AGU/Giving">Give</a>
+</li>
+<li>
+<a href="/Login">Login</a>
+</li>
+<li>
+<a href="/Give-to-AGU/Giving">Give to AGU</a>
+</li>
+</ul>
+<ul class="menu menu1">
+<li>
+<span class="head"><a href="/Learn-About-AGU/About-AGU">Learn About AGU</a></span>
+<ul class="submenu">
+<li><a href="/Learn-About-AGU/About-AGU/#0">Who We Are</a></li>
+<li><a href="/Learn-About-AGU/About-AGU/#1">What We Do</a></li>
+<li><a href="/Learn-About-AGU/About-AGU/#2">Leadership and Governance</a></li>
+<li><a href="/Learn-About-AGU/About-AGU/Governance/Sections">Sections</a></li>
+</ul>
+</li>
+<li>
+<span class="head"><a href="/Publish-with-AGU/Publish">Publish with AGU</a></span>
+</li>
+<li>
+<span class="head"><a href="/Plan-for-a-Meeting/AGUMeetings">Explore Meetings</a></span>
+</li>
+<li>
+<span class="head"><a href="/Learn-and-Develop/Learn">Learn and Develop</a></span>
+</li>
+<li>
+<span class="head"><a href="/Share-and-Advocate/Share">Share and Advocate</a></span>
+</li>
+<li>
+<span class="head"><a href="/Honor-and-Recognize/Honors">Honors</a></span>
+</li>
+<li>
+<span class="head"><a href="/Stay-Informed/Stay-Informed">Stay Informed</a></span>
+</li>
+</ul>
+
+<ul class="menuType2 bottomlink">
+<li>
+<a href="/Give-to-AGU/Giving">Give to AGU</a>
+</li>
+<li>
+<a href="/Login">Login</a>
+</li>
+</ul>
+</div>
+<div class="menuSection bdr">
+<div class="menuContent">
+<h3>Welcome to AGU&#39;s new digital experience</h3>
+<div class="leftOff">
+<h4>Learn more about our digital vision</h4>
+<p>Check out current highlights for the new platform and what's coming in the future. We're continuously improving the experience with your feedback!</p>
+<a class="button button-secondary finishedUp" href="/Learn-About-AGU/About-AGU/DTI-Updates">Check it out</a>
+</div>
+</div>
+<div class="menuContent">
+<h3>Important Short Cuts</h3>
+<div class="impShortcut leftOff">
+<ul class="shortcut">
+<li>
+<h5>Fall Meeting 2020</h5>
+<div><a href="/Fall-Meeting/Pages/submit-a-proposal">View Fall Meeting 2020 Session proposals</a></div>
+</li>
+<li>
+<h5>Important Links</h5>
+<div><div><a rel="noopener noreferrer" rel="noopener noreferrer" href="https://centennial.agu.org/" target="_blank">Centennial</a><br />
+<a href="https://eos.org/">Eos</a><br />
+<a href="https://ethicsandequitycenter.org/">AGU Ethics &amp; Equity Center</a><br />
+<a href="/AGU-Membership/Membership-Benefits">Membership Benefits</a><br />
+<a href="https://building.agu.org/">Net zero energy building</a><br />
+<a rel="noopener noreferrer" rel="noopener noreferrer" href="https://thrivingearthexchange.org/" target="_blank">Thriving Earth Exchange</a></div></div>
+</li>
+<li>
+<h5>Interesting Articles</h5>
+<div><div><a rel="noopener noreferrer" href="https://blogs.agu.org/geospace/2019/12/23/monitoring-conflict-and-climate-could-help-stop-famines-before-they-happen/" target="_blank">Monitoring conflict and climate could help stop famines before they happen</a></div>
+<p><a rel="noopener noreferrer" href="https://eos.org/features/seismic-sensors-in-orbit" target="_blank">Seismic Sensors in Orbit</a></p></div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+    $("#selogo").click(function () {
+        $("#mainNav").addClass("menuopen");
+        $("#main-container").addClass("mainContainerMinHeight");
+    });
+    $("#closemainNave").click(function () {
+        $("#mainNav").removeClass("menuopen");
+        $("#main-container").removeClass("mainContainerMinHeight");
+    });
+
+    $(".menuContent h3").click(function () {
+        var ua = navigator.userAgent.toLowerCase();
+        var isAndroid = ua.indexOf("android") > -1;
+        var isIphone = ua.indexOf("iphone") > -1;
+        var backEnable = $(this).attr("class");
+        var onmenuclose = $(this).attr("id");
+        if ((isAndroid == true || isIphone == true) || backEnable == "mobileBackClick" || onmenuclose == "closemainNave") {
+           // $(".menuContent").css("display", "none");
+            $("#mobileLeftMenu").css("display", "none");
+            $(".menuContent").css("display", "none");
+            $(".userdetailsonmobile").css("display", "none");
+            $(".mobileBackBtn").css("display", "block");
+            $(this).parent().addClass("showMenu").removeAttr("style");
+        }
+    })
+
+</script>
+</main>
+</div>
+<footer class="bg-dark">
+<style>
+    @media only screen and (min-width: 768px) and (max-width: 979px) {
+        .footer-bottom {
+            padding: 20px 0px;
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .footer-image {
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        .footer-image img{
+            height:100%;
+        }
+        .footer-bottom {
+            padding: 20px 0px;
+            position: static;
+            top: 0;
+            transform: translate(0,0);
+            -moz-transform: translate(0,0);
+            -webkit-transform: translate(0,0);
+            -o-transform: translate(0,0);
+            -ms-transform: translate(0,0);
+        }
+    }
+
+</style>
+<div class="footer-section-inner">
+<div class="footer-image"><img src="/-/media/Feature/Common/Agu/Images/Homepage/AGU-Stock-Footer-aurora_1349x350.jpg?h=350&amp;w=1349&amp;hash=6BC260344AB0FC8D787501FE9B1EBDB0" alt="AGU footer" width="1349" height="350" /> </div>
+<div class="footer-bottom">
+<div class="container-layout">
+<div class="row">
+<div class="container-fluid">
+<div class="row">
+<div class="col-sm-4">
+</div>
+<div class="col-sm-4">
+</div>
+<div class="col-sm-4">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<link href="/fonts/stylesheet.css" rel="stylesheet" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-137177735-1"></script>
+<script>
+
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] ||
+                function() {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        //For Test User analytics record
+        //ga('create', 'UA-133934613-1');
+        ga('create', 'UA-137177735-1');
+        ga('send', 'pageview');
+        </script>
+<script>
+        !function (f, e, a, t, h, r) {
+            if (!f[h]) {
+                r = f[h] = function () {
+                    r.invoke ?
+                        r.invoke.apply(r, arguments) : r.queue.push(arguments)
+                },
+                    r.queue = [], r.loaded = 1 * new Date, r.version = "1.0.0",
+                    f.FeathrBoomerang = r; var g = e.createElement(a),
+                        h = e.getElementsByTagName("head")[0] || e.getElementsByTagName("script")[0].parentNode;
+                g.async = !0, g.src = t, h.appendChild(g)
+            }
+        }(window, document, "script", "https://cdn.feathr.co/js/boomerang.min.js", "feathr");
+
+        feathr("fly", "5caf4555cf37a2000e07a235");
+        feathr("sprinkle", "page_view");
+    </script>
+</body>
+</html>

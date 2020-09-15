@@ -1,4 +1,4 @@
-pdfname = Contract.pdf
+pdfname = Logbook.pdf
 all:
 	pandoc main.md -o $(pdfname)
 	wc -w main.md
