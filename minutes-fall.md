@@ -10,6 +10,79 @@ fontsize: 12pt
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Minutes - Tuesday, October 20th, 2020
+=====================================
+15:33 - 15:54
+-------------------------------------
+
+## Meeting participants:
+Conrad Mearns, Joshua Dempsey, Damon Schafer
+
+
+## Amendments to previous Minutes
+None
+
+## Agenda Items 
+
+
+*Actions taken*
+- Finished writeup for auto-drive mod
+
+*Next steps*
+
+### Map Tasks
+- Given a farmplot polygon, map a set of auto-drive points to the farmplot polygon
+    - Create an AutoDrive path from those points
+    - Determine if a set of points "covers" the total farmed area of the farm
+- 3rd Part Lua module imports and/or code hot reloading
+- Verify map correctness
+- Create test map
+- Acquiring VorpX for GIS Map Tests (Requires _GIS Map in Farming Simulator_)
+- Determine Snapshot Schedule (Waiting on Reply Email!!!!!)
+
+*No Votes*
+
+*No Motions*
+
+*No items held over*
+
+*New business*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Minutes - Tuesday, October 13th, 2020
 =====================================
 15:35 - 15:46
