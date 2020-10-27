@@ -16,7 +16,7 @@ fontsize: 12pt
 
 
 
-Minutes - Tuesday, October 20th, 2020
+Minutes - Tuesday, October 27th, 2020
 =====================================
 17:00 - 17:37
 -------------------------------------
@@ -37,7 +37,7 @@ None
 - IN PROGRESS - Create test map
   - Need FS transform number
 
-  
+
 *Next steps*
 
 ### Need to transfer documentation to Wiki
