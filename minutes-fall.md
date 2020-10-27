@@ -16,6 +16,62 @@ fontsize: 12pt
 
 
 
+Minutes - Tuesday, October 20th, 2020
+=====================================
+17:00 - 17:37
+-------------------------------------
+
+## Meeting participants:
+Conrad Mearns, Joshua Dempsey, Damon Schafer
+
+
+## Amendments to previous Minutes
+None
+
+## Agenda Items 
+
+*Actions taken*
+- Finished writeup for auto-drive mod
+- RESOLVED - 3rd Part Lua module imports and/or code hot reloading
+  - not possible
+- IN PROGRESS - Create test map
+  - Need FS transform number
+
+  
+*Next steps*
+
+### Need to transfer documentation to Wiki
+
+### Map Tasks
+
+
+- Lua Script Debugger HOW
+- Lua polygon programming
+- Farming simulator paint investigation
+- Dropping soil erosion priority
+- Create more Wiki documention
+- Track down we have a wheel and foot pedals
+
+
+- Given a farmplot polygon, map a set of auto-drive points to the farmplot polygon
+    - Create an AutoDrive path from those points
+    - Determine if a set of points "covers" the total farmed area of the farm
+- Verify map correctness
+- Acquiring VorpX for GIS Map Tests (Requires _GIS Map in Farming Simulator_)
+- Determine Snapshot Schedule (Waiting on Reply Email!!!!!!)
+
+*No Votes*
+
+*No Motions*
+
+*No items held over*
+
+*New business*
+
+
+
+
+
 
 
 
