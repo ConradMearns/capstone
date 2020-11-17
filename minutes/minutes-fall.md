@@ -9,6 +9,40 @@ fontsize: 12pt
 
 
 
+Minutes - Tuesday, November 17th, 2020
+=====================================
+15:30 - 
+-------------------------------------
+
+## Meeting participants:
+Conrad Mearns, Joshua Dempsey, Damon Schafer
+
+
+## Amendments to previous Minutes
+None
+
+## Agenda Items 
+
+Scheduled final work on
+- Integrating geometry code into Farming Simulator from Lua
+- Test map modding in Farming Simulator
+- Finish logbooks
+- Update Github
+- Update Minutes formatting
+
+
+*Next steps*
+
+
+
+*No Votes*
+
+*No Motions*
+
+*No items held over*
+
+*New business*
+
 
 
 
@@ -18,7 +52,7 @@ fontsize: 12pt
 
 Minutes - Tuesday, October 27th, 2020
 =====================================
-17:00 - 17:37
+17:00 - 18:05
 -------------------------------------
 
 ## Meeting participants:
