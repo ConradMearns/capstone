@@ -11,7 +11,7 @@ fontsize: 12pt
 
 Minutes - Tuesday, November 17th, 2020
 =====================================
-15:30 - 
+15:30 - 16:23pm
 -------------------------------------
 
 ## Meeting participants:
@@ -30,6 +30,7 @@ Scheduled final work on
 - Update Github
 - Update Minutes formatting
 
+Finish assembling poster information, and prepare for whatever hasn't been communicated to us :shrug:
 
 *Next steps*
 
