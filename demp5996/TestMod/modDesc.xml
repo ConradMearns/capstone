@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="43">
+
+	<author>conrad</author>
+	<version>1.0.0.2</version>
+		
+	<title>
+		<en>TestMod</en>
+	</title>
+	
+	<description>
+		<en>This is a test mod.</en>
+	</description>
+
+
+	<!--<iconFilename>icon.png</iconFilename>-->
+
+	<specializations>
+		<specialization name="myTest" className="TestScript" filename="test.lua" />
+		<specialization name="_PolyTest" className="PolyTest" filename="PolyTest.lua" />
+		<specialization name="_Point" className="Point" filename="Point.lua" />
+		<specialization name="_class" className="Class" filename="class.lua" />
+	</specializations>
+
+</modDesc>
