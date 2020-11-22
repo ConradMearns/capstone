@@ -73,6 +73,9 @@ function TestScript:cmdTestPoly()
 	return nil
 end
 
+--[[
+	Busted function, need to figure out how to properly access Game information
+]]
 function TestScript:cmdGetPos()
 	print("Player position data:")
 	posX, posY, posZ, rotY = Player.getPositionData()
@@ -84,4 +87,6 @@ addConsoleCommand("test", "This is a test.", "cmdTest", TestScript);
 addConsoleCommand("hello", "Print a hello world statement.", "cmdHello", TestScript);
 addConsoleCommand("test_poly", "Test some functions from PolyTest", "cmdTestPoly", TestScript);
 addConsoleCommand("getpos", "Get PlayerPosition", "cmdGetPos", TestScript);
+
+
 
