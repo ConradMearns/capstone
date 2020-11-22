@@ -321,6 +321,6 @@ end
 
 --[[
     Following code is for testing bits and bobs in LUA~land outside of Farming Simulator to verify code functions before having to make, move, install, launch, and load mod for FS
-]]
-require("Point")
-PolyTest.TestStuff()
+    require("Point")
+    PolyTest.TestStuff()
+    ]]
