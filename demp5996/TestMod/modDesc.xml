@@ -20,6 +20,7 @@
 		<specialization name="_PolyTest" className="PolyTest" filename="PolyTest.lua" />
 		<specialization name="_Point" className="Point" filename="Point.lua" />
 		<specialization name="_class" className="Class" filename="class.lua" />
+		<specialization name="_PathFind" className="Class" filename="PathFind.lua" />
 	</specializations>
 
 </modDesc>
