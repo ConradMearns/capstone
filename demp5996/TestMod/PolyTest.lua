@@ -1,3 +1,7 @@
+--[[
+    This file is deprecated and may be removed. The functionality of this file has been moved to pathFind.lua
+]]
+
 PolyTest = {}
 
 --[[
@@ -7,7 +11,9 @@ function PolyTest:HelloWorld()
     print("Howdy Partner")
 end
 
-
+--[[
+    Simple function for printing point data in a slightly nicer looking format
+]]
 function _pp(p)
     if p == nil then return "nil point" end
    return string.format("(%s,%s,%s)",p.x,p.y,p.z)
@@ -18,8 +24,8 @@ end
 ]]
 function FindMins(Poly)
     local numVerts = #Poly
-    local minX = 0
-    local minZ = 0
+    local minX = Poly[1].x
+    local minZ = Poly[1].z
     for i = 1, numVerts do
         
         if(Poly[i].x < minX) then minX = Poly[i].x end
@@ -173,6 +179,13 @@ function PolyTest:TestStuff()
         print(string.format("%s]\t%s",i, _pp(Path[i])))
     end
     print("End.")
+
+
+
+    print("A different approach:")
+
+    
+
 end
 
 --[[
@@ -200,7 +213,6 @@ function GeneratePathFromPoints(ConsideredPoints)
     Path = {}
     Remaining = ConsideredPoints
     Add(Path, StartPoint)
-    --table.insert(Path, StartPoint) -- Add Starting Point to Table
     Remove(Remaining, StartPoint) -- Remove From remaining
     
     Current = StartPoint -- Set CurrentPoint to Start Point
@@ -209,6 +221,7 @@ function GeneratePathFromPoints(ConsideredPoints)
     for i = 1, #ConsideredPoints-1 do
         print(string.format("%s]---",i))
         print("I am at:",_pp(Current))
+        
         -- Select Point
         NextPoint = SelectPoint(Current, Remaining)
 
@@ -264,6 +277,9 @@ end
 ]]
 function SelectPoint(current, remaining)
     print("Selecting a new Point")
+    print("#remaining", #remaining)
+
+
 
     BestPoint = current
 
@@ -276,28 +292,22 @@ function SelectPoint(current, remaining)
 
     print("Current Point:", _pp(current))
     print("Best Point found:", _pp(BestPoint))
-    --[[
-    for i = 1, #remaining do
-        if remaining[i] == nil then goto continue end -- Found a nil entry (possibly removed)
-        
-        -- Compare current Best Point to remaining point
-        --print("Comparing Points for determination:")
-        --print("current: (",current.x, current.y, current.z,")")
-        --print("Remaining[i] (",remaining[i].x, remaining[i].y, remaining[i].z,")")
-        dist = XZDistance(current, remaining[i])
-        print(dist)
 
-        BestPoint = remaining[i]
-
-        ::continue:: -- goto block to simulate continue for selection loop
+    print("Printing remaining:")
+    print("------------------------------------")
+    for j = 0, #remaining do 
+        print(j,"]", _pp(remaining[j]))
     end
-    ]]
+    print("------------------------------------")
     return BestPoint
 end
 
 function SelectMinXZDist(point, list)
     minDist = 9999999
     minPoint = nil
+
+    print("\t\tSelectMinXZDist here: #List is: ", #list)
+
     for i = 1, #list do
         if list[i] == nil then goto continue end -- Found a nil entry (possibly removed)
         
@@ -305,7 +315,6 @@ function SelectMinXZDist(point, list)
         if(_d < minDist) then
             minDist = _d
             minPoint = list[i]
-        
         end
         
         ::continue:: -- goto block to simulate continue for selection loop
@@ -321,6 +330,6 @@ end
 
 --[[
     Following code is for testing bits and bobs in LUA~land outside of Farming Simulator to verify code functions before having to make, move, install, launch, and load mod for FS
-    require("Point")
-    PolyTest.TestStuff()
     ]]
+require("Point")
+PolyTest.TestStuff()
