@@ -1,8 +1,6 @@
--- Author:Joshua
--- Name:test
--- Description:Just doodling
--- Icon:
--- Hide: no
+--[[
+	wrapper.lua contains console commands and wrapper functions for use in game of Farming Simulator 19 to interact with code in other properly loaded LUA files
+]]
 
 --[[
 	General Attack plan roadmap
@@ -51,17 +49,17 @@
 		obstacles in field / strange fields 
 ]]
 
-TestScript = {}; -- This is a Lua table
-TestScript.ModDir = g_currentModDirectory
+WrapperScript = {}; -- This is a Lua table
+WrapperScript.ModDir = g_currentModDirectory
 
 -- HelloWorld/Testing Commands
 
-function TestScript:cmdTest() -- this how how we OOP
+function WrapperScript:cmdTest() -- this how how we OOP
 	print("This is a test!")
 	return nil
 end
 
-function TestScript:cmdHello()
+function WrapperScript:cmdHello()
 	print("Hello!")
 	io.write("This is a test")
 	return "World!"
@@ -72,7 +70,7 @@ end
 --[[
 	Clear contents of PathFind's PolyGon table
 ]]
-function TestScript:cmdClearPoly()
+function WrapperScript:cmdClearPoly()
 	PathFind:ClearPoly()
 	return nil
 end
@@ -80,7 +78,7 @@ end
 --[[
 	Grabs frist 3 numbers (space sperated) and adds the corresponding point to PathFind's PolyGon 
 ]]
-function TestScript:cmdAddPoint(...)
+function WrapperScript:cmdAddPoint(...)
 	local args = {...}
 	local XYZ = {}
 	for k in pairs (args) do
@@ -95,7 +93,7 @@ _Path = {} --Global table for storing generated Paths
 --[[
 	Calls the MakePath function in PathFind which uses the contents of PathFind's PolyGon table to generate and return a path
 ]]
-function TestScript:cmdMakePath()
+function WrapperScript:cmdMakePath()
 	_Path = PathFind:MakePath()
 	return nil
 end
@@ -103,7 +101,7 @@ end
 --[[
 	Calls PathFind's PrintPath function which prints the ordered list in a slightly nicer format. (still blows up output)
 ]]
-function TestScript:cmdPrintPath()
+function WrapperScript:cmdPrintPath()
 	PathFind:PrintPath(_Path)
 	return nil
 end
@@ -111,30 +109,18 @@ end
 --[[
 	Print the contents of PathFind's PolyGon table
 ]]
-function TestScript:cmdPrintPoly()
+function WrapperScript:cmdPrintPoly()
 	PathFind:PrintPoly()
 	return nil
 end
 
---Game Interaction Commands (Severe WIP)
-
---[[
-	Busted function, need to figure out how to properly access Game information
-]]
-function TestScript:cmdGetPos()
-	print("Player position data:")
-	posX, posY, posZ, rotY = Player.getPositionData()
-	print("Position: ", posX, posY, posZ)
-end
-
 --                FS CMD    HelpText     Func        Table
-addConsoleCommand("test", "This is a test.", "cmdTest", TestScript);
-addConsoleCommand("hello", "Print a hello world statement.", "cmdHello", TestScript);
-addConsoleCommand("getpos", "Get PlayerPosition", "cmdGetPos", TestScript);
+addConsoleCommand("test", "This is a test.", "cmdTest", WrapperScript);
+addConsoleCommand("hello", "Print a hello world statement.", "cmdHello", WrapperScript);
 
 --PathFinding commands
-addConsoleCommand("clear_poly", "Clears PathFind's PolyGon Table for storing points", "cmdClearPoly", TestScript)
-addConsoleCommand("add_point", "Adds a point (x,y,z) To PathFind's PolyGon table", "cmdAddPoint", TestScript)
-addConsoleCommand("make_path", "Generates A path of points from PathFind's polygon", "cmdMakePath", TestScript)
-addConsoleCommand("print_poly", "Print the current contents of PathFind's PolyGon", "cmdPrintPoly", TestScript)
-addConsoleCommand("print_path", "Print the Generated path returned from the make_path command", "cmdPrintPath", TestScript)
+addConsoleCommand("clear_poly", "Clears PathFind's PolyGon Table for storing points", "cmdClearPoly", WrapperScript)
+addConsoleCommand("add_point", "Adds a point (x,y,z) To PathFind's PolyGon table", "cmdAddPoint", WrapperScript)
+addConsoleCommand("make_path", "Generates A path of points from PathFind's polygon", "cmdMakePath", WrapperScript)
+addConsoleCommand("print_poly", "Print the current contents of PathFind's PolyGon", "cmdPrintPoly", WrapperScript)
+addConsoleCommand("print_path", "Print the Generated path returned from the make_path command", "cmdPrintPath", WrapperScript)
