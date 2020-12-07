@@ -66,7 +66,15 @@ Prints out the contents of the global path table that is populated with make_pat
 To use the PathFinding functions, make sure the developer console is enabled, and press the \` key in game to show the console; and again to enable user input:
 
 ### Enabling the developer console:
-Modify the game.xml located in the base directory for the game’s installation.
+Modify the game.xml located in the base directory for the game’s installation. 
+Change 
+```XML
+<controls>false</controls>
+```
+to 
+```XML
+<controls>true</controls>
+```
 
 A simple proper usage would be to add all the points to be considered in the proper order
 ```LUA
