@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="43">
+
+	<author>conrod</author>
+	<author>joshua</author>
+	<author>damon</author>
+	<version>1.0.0.3</version>
+		
+	<title>
+		<en>XRFS19PathFind</en>
+	</title>
+	
+	<description>
+		<en>A rough and preliminary implementation of a path finding algorithm built in LUA - on the Cook's Farm!</en>
+	</description>
+
+	<!--<iconFilename>icon.png</iconFilename>-->
+
+	<specializations>
+		<specialization name="wrapper" className="WrapperScript" filename="wrapper.lua" />
+		<specialization name="PolyTest" className="PolyTest" filename="PolyTest.lua" />
+		<specialization name="Point" className="Point" filename="Point.lua" />
+		<specialization name="class" className="Class" filename="class.lua" />
+		<specialization name="PathFind" className="Class" filename="PathFind.lua" />
+	</specializations>
+
+
+	<iconFilename>icon.png</iconFilename>
+    <multiplayer supported="true"/>
+    <maps>
+        <map id="SampleModMap" className="Mission00" filename="$dataS/scripts/missions/mission00.lua" configFilename="maps/mapDE.xml" defaultVehiclesXMLFilename="defaultVehicles.xml" defaultItemsXMLFilename="defaultItems.xml">
+            <title>
+                <en>Blank Map</en>
+                <de>Blank Map</de>
+            </title>
+            <description>
+                <en>A simple blank map to get you started.</en>
+                <de>A simple blank map to get you started.</de>
+            </description>
+            <iconFilename>map_preview.png</iconFilename>
+        </map>
+    </maps>
+
+</modDesc>
