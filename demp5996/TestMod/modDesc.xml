@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="43">
 
-	<author>conrad</author>
-	<version>1.0.0.2</version>
+	<author>conrod</author>
+	<author>joshua</author>
+	<author>damon</author>
+	<version>1.0.0.3</version>
 		
 	<title>
-		<en>TestMod</en>
+		<en>XRFS19PathFind</en>
 	</title>
 	
 	<description>
-		<en>This is a test mod.</en>
+		<en>A rough and preliminary implementation of a path finding algorithm built in LUA.</en>
 	</description>
-
 
 	<!--<iconFilename>icon.png</iconFilename>-->
 
 	<specializations>
-		<specialization name="myTest" className="TestScript" filename="test.lua" />
-		<specialization name="_PolyTest" className="PolyTest" filename="PolyTest.lua" />
-		<specialization name="_Point" className="Point" filename="Point.lua" />
-		<specialization name="_class" className="Class" filename="class.lua" />
-		<specialization name="_PathFind" className="Class" filename="PathFind.lua" />
+		<specialization name="wrapper" className="WrapperScript" filename="wrapper.lua" />
+		<specialization name="PolyTest" className="PolyTest" filename="PolyTest.lua" />
+		<specialization name="Point" className="Point" filename="Point.lua" />
+		<specialization name="class" className="Class" filename="class.lua" />
+		<specialization name="PathFind" className="Class" filename="PathFind.lua" />
 	</specializations>
 
 </modDesc>
