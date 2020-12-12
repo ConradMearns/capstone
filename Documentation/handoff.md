@@ -1,3 +1,16 @@
+---
+header-includes:
+  - \usepackage{tikz}
+  - \usetikzlibrary{mindmap}
+  - \usepackage{changepage}
+geometry:
+- top=1in
+- left=0.5in
+- right=0.5in
+- bottom=0.5in
+fontsize: 12pt
+...
+
 # About the Project
 
 ## Deliverables
@@ -8,6 +21,16 @@ The foundation of the projects API with Farming Simulator.
   - Includes a FS CLI interface for adding autopathing points and a basic solver.
   - Includes the GIS-Imported Cook's Farm
 
+# [-> Link to Mindworks Wiki <-](http://mindworks.shoutwiki.com/w/index.php?title=Platform_for_XR_Agriculture_Education)
+
+
+## Tools Required
+
+- Steam Account from Dev
+- Farming Simulator 19
+- GIANTS Editor
+- Lua 5.1 (Recommended)
+- QGIS (For map data manipulation and creation)
 
 ## Getting Started
 
@@ -24,6 +47,18 @@ Spaces has been injected into the `p a s s w o r d` string for readability and t
 
 Change ASAP.
 
+### Installing and Activating XRFS19.zip
+
+`C:\users\steamuser\My Documents\My Games\FarmingSimulator2019\mods`
+- copy zip to mod path
+- start a new game on the XRFS19 map
+- check `Mods` in FS to make sure XFFS19.zip is activated
+
+### Using the Mod
+
+Check the `README.md` in the XRFS19Mod
+
+
 ### Make sure you enable the developer console. 
 
 ### Required for Mods
@@ -35,7 +70,6 @@ This file lists specializations for including Lua files, and maps.
 ```xml
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="43">
-
 	<author>Authors</author>
 	<version>Version</version>
 		
@@ -47,13 +81,13 @@ This file lists specializations for including Lua files, and maps.
 		<en>Description</en>
 	</description>
 
-
 	<iconFilename>icon.png</iconFilename>
 
 	<specializations>
-		<specialization name="specialization_name" className="ClassName" filename="file.lua" />
+		<specialization name="specialization_name"
+						className="ClassName"
+						filename="file.lua" 		/>
 	</specializations>
-
 </modDesc>
 ```
 
@@ -94,6 +128,19 @@ A Lua module requires a table, and functions associated with that table.
 Once these functions are built, you can use `addConsoleCommand` to create a callable function from within Farming Simulator.
 
 Note: returning a string will print a string - this is showcased in this example.
+
+# Farming Simulator Next Steps TODO
+
+- Path generation and creation needs visual tooling
+- Autopaths need visualization
+- Transform our path points into AuoDrive compatible data
+- Interface for selecting autopathing optimizations for Fuel and Time
+- Remove artifacts from maps
+- Add player vehicles to the map
+- Integrate farm plots
+
+
+---
 
 # For Future Consideration
 
