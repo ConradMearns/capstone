@@ -129,7 +129,7 @@ Once these functions are built, you can use `addConsoleCommand` to create a call
 
 Note: returning a string will print a string - this is showcased in this example.
 
-# Farming Simulator Next Steps TODO
+# Farming Simulator Next Steps
 
 - Path generation and creation needs visual tooling
 - Autopaths need visualization
